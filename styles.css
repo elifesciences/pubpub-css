@@ -119,7 +119,7 @@ header.header-component {
 	padding-left: 0;
 	padding-right: 0.75rem;
 }
-.nav-bar-component a li {
+.nav-bar-component li a {
 	text-transform: none;
 	margin: 0;
 	margin-left: calc((18 / 16) * 1rem);
