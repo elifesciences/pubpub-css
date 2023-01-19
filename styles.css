@@ -12,10 +12,10 @@ a:hover, li:hover, .nav-bar-component li:hover, .nav-bar-component :hover .title
     text-decoration: none !important;
 }
 
-p, 
-.layout-component .layout-text-component p, 
-.layout-component .layout-text-component li, 
-.layout-component .layout-html-component p, 
+p,
+.layout-component .layout-text-component p,
+.layout-component .layout-text-component li,
+.layout-component .layout-html-component p,
 .layout-component .layout-html-component li
 {
     font-size: 16px;
@@ -33,8 +33,8 @@ header.header-component {
     height: 100%;
 }
 .nav-bar-component {
-     margin-top: 54px;
-     margin-bottom: 42px;
+    margin-top: 54px;
+    margin-bottom: 42px;
 }
 .nav-bar-component.accent-color {
     border-bottom: 0 !important;
@@ -94,7 +94,7 @@ header.header-component {
     background-image: url("https://ui-patterns.elifesciences.org/assets/img/patterns/molecules/nav-primary-menu-ic.svg");
     background-size: 24px;
     display: inline-block;
-    width: 24px; 
+    width: 24px;
     height: 24px;
     content:"";
 }
@@ -108,7 +108,7 @@ header.header-component {
     background-image: url("https://ui-patterns.elifesciences.org/assets/img/patterns/molecules/nav-secondary-search-black-ic.svg");
     background-size: 24px 24px;
     display: inline-block;
-    width: 24px; 
+    width: 24px;
     height: 24px;
     content: "";
     margin-left: 4px;
@@ -117,7 +117,7 @@ header.header-component {
     background-image: url("https://elifesciences.org/assets/patterns/img/patterns/molecules/nav-secondary-alert-black-ic.e9bb80fe.svg");
     background-size: 24px;
     display: inline-block;
-    width: 24px; 
+    width: 24px;
     height: 24px;
     content: "";
     margin-left: 4px;
@@ -160,7 +160,7 @@ header.header-component {
     background-image: url("https://epp-storybook.elifesciences.org/static/media/elife-logo.c742044083e145f648d80e5e424ac02a.svg");
     background-size: 88px 35px;
     display: inline-block;
-    width: 88px; 
+    width: 88px;
     height: 35px;
     content:"";
 }
@@ -273,10 +273,10 @@ header.header-component {
     border-bottom: 1px #e0e0e0 solid;
     margin-bottom: 30px;
 }
-.separated > :nth-child(3) a, 
-.separated > :nth-child(4) a, 
-.separated > :nth-child(5) a, 
-.separated > :nth-child(6) a, 
+.separated > :nth-child(3) a,
+.separated > :nth-child(4) a,
+.separated > :nth-child(5) a,
+.separated > :nth-child(6) a,
 .separated > :nth-child(28) a {
     display: block;
     color: transparent;
@@ -291,7 +291,7 @@ header.header-component {
 .separated > :nth-child(5) a:hover,
 .separated > :nth-child(6) a:hover,
 .separated > :nth-child(28) a:hover
- {
+{
     color: transparent;
 }
 
@@ -300,35 +300,35 @@ header.header-component {
 }
 
 .separated > :nth-child(3) a {
-        background-image: url('https://elifesciences.org/assets/images/investors/hhmi.9d0951a2.svg');
-        background-size: 185px auto;
+    background-image: url('https://elifesciences.org/assets/images/investors/hhmi.9d0951a2.svg');
+    background-size: 185px auto;
 }
 
 .separated > :nth-child(4) a {
-        background-image: url('https://elifesciences.org/assets/images/investors/wellcome.813f8634.svg');
-        background-size: 72px auto;
+    background-image: url('https://elifesciences.org/assets/images/investors/wellcome.813f8634.svg');
+    background-size: 72px auto;
 }
 
 .separated > :nth-child(5) a {
 
-        background-image: url('https://elifesciences.org/assets/images/investors/max.89cebd37.svg');
-        background-size: 185px auto;
+    background-image: url('https://elifesciences.org/assets/images/investors/max.89cebd37.svg');
+    background-size: 185px auto;
 }
 
 .separated > :nth-child(6) a {
-        background-image: url('https://elifesciences.org/assets/images/investors/kaw.c1bb2e4b.svg');
-        background-size: 125px auto;
+    background-image: url('https://elifesciences.org/assets/images/investors/kaw.c1bb2e4b.svg');
+    background-size: 125px auto;
 }
 
-.separated > :nth-child(7), 
-.separated > :nth-child(8), 
-.separated > :nth-child(9), 
+.separated > :nth-child(7),
+.separated > :nth-child(8),
+.separated > :nth-child(9),
 .separated > :nth-child(10),
-.separated > :nth-child(11), 
+.separated > :nth-child(11),
 .separated > :nth-child(12),
-.separated > :nth-child(13), 
-.separated > :nth-child(14), 
-.separated > :nth-child(15), 
+.separated > :nth-child(13),
+.separated > :nth-child(14),
+.separated > :nth-child(15),
 .separated > :nth-child(16),
 .separated > :nth-child(17),
 .separated > :nth-child(18) {
@@ -339,21 +339,21 @@ header.header-component {
     font-weight: 400;
 }
 
-.separated > :nth-child(7) a, 
-.separated > :nth-child(9) a, 
-.separated > :nth-child(11) a, 
+.separated > :nth-child(7) a,
+.separated > :nth-child(9) a,
+.separated > :nth-child(11) a,
 .separated > :nth-child(13) a,
-.separated > :nth-child(15) a, 
+.separated > :nth-child(15) a,
 .separated > :nth-child(17) a {
     position: absolute;
     left: 165px;
 }
 
-.separated > :nth-child(8) a, 
-.separated > :nth-child(10) a, 
-.separated > :nth-child(12) a, 
+.separated > :nth-child(8) a,
+.separated > :nth-child(10) a,
+.separated > :nth-child(12) a,
 .separated > :nth-child(14) a,
-.separated > :nth-child(16) a, 
+.separated > :nth-child(16) a,
 .separated > :nth-child(18) a {
     position: absolute;
     left: 86px;
@@ -401,19 +401,19 @@ header.header-component {
     content: '© 2022 eLife Sciences Publications Ltd. Subject to a Creative Commons Attribution license, except where otherwise noted. ISSN: 2050-084X' !important;
 }
 
-.separated > :nth-child(21), 
-.separated > :nth-child(22), 
-.separated > :nth-child(23), 
-.separated > :nth-child(24), 
+.separated > :nth-child(21),
+.separated > :nth-child(22),
+.separated > :nth-child(23),
+.separated > :nth-child(24),
 .separated > :nth-child(25) {
     margin-top: 50px;
     grid-area: social;
 }
 
-.separated > :nth-child(21) a, 
-.separated > :nth-child(22) a, 
-.separated > :nth-child(23) a, 
-.separated > :nth-child(24) a, 
+.separated > :nth-child(21) a,
+.separated > :nth-child(22) a,
+.separated > :nth-child(23) a,
+.separated > :nth-child(24) a,
 .separated > :nth-child(25) a {
     position: absolute;
 }
@@ -459,7 +459,7 @@ header.header-component {
 ol.section-listing {
     display: flex;
     justify-content: center;
-    column-gap: 36px; 
+    column-gap: 36px;
     font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
     font-size: 16px;
     width: 150%;
@@ -533,34 +533,34 @@ ol.section-listing li.section-listing__list_item--current a {
 
 /* About page card styles - test */
 .grid {
-  /*border: 1px blue solid;*/
-  display: grid;
-  /* grid-template-columns: 1fr 1fr; */
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 1fr 1fr;
-  grid-column-gap: 48px;
-  grid-row-gap: 48px;
-  padding: 0 24px;
-  /* max-width:1200px; */
-  margin-top:48px;
-  margin: 48px auto 0 auto;
-  
+    /*border: 1px blue solid;*/
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 48px;
+    grid-row-gap: 48px;
+    padding: 0 24px;
+    /* max-width:1200px; */
+    margin-top:48px;
+    margin: 48px auto 0 auto;
+
 }
 
 .card {
-  /*border: 1px orange solid;*/
-  grid-column: span 6;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-column-gap: 24px;
-  padding:12px;
-  
+    /*border: 1px orange solid;*/
+    grid-column: span 6;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 24px;
+    padding:12px;
+
 }
 
 .card.right .card_text {
- /*border: solid 1px red;*/
- grid-column: 2 / 2;
- grid-row: 1 / 1;
+    /*border: solid 1px red;*/
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
 }
 
 .card.right .img_placeholder {
@@ -569,32 +569,32 @@ ol.section-listing li.section-listing__list_item--current a {
 }
 
 .img_placeholder {
-  width: 200px;
-  height: 200px;
-  background: #e0e0e0;
-  justify-self: end;  
+    width: 200px;
+    height: 200px;
+    background: #e0e0e0;
+    justify-self: end;
 }
 
 .block-content .card h3 {
-  line-height: 2rem;;
+    line-height: 2rem;;
 }
 
 @media only screen and (max-width : 1200px) {
 
-   .grid {
-     grid-template-columns: 1fr;
-     border: 1px solid green;
-     max-width: 800px;
-   }
-   /* Undo the flipped positioning for "right" classes below 1200px */
-   .card.right .card_text {
-     grid-column: 1 / 1;
-     grid-row: 1 / 1;
+    .grid {
+        grid-template-columns: 1fr;
+        border: 1px solid green;
+        max-width: 800px;
+    }
+    /* Undo the flipped positioning for "right" classes below 1200px */
+    .card.right .card_text {
+        grid-column: 1 / 1;
+        grid-row: 1 / 1;
     }
 
     .card.right .img_placeholder {
-    grid-column: 2 / 2;
-    grid-row: 1 / 1;
+        grid-column: 2 / 2;
+        grid-row: 1 / 1;
     }
 }
 
