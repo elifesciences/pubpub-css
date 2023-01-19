@@ -183,15 +183,12 @@ header.header-component {
 	margin-left: calc((4 / 16) * 1rem);
 }
 
-.nav-bar-component ul.nav-list > :last-child:hover {
-	background-color: #087acc;
-}
-
-.nav-bar-component ul.nav-list > :last-child li:hover {
+.nav-bar-component ul.nav-list > :last-child a:hover {
 	color: white;
+	background-color: #0769b0;
 }
 
-.nav-bar-component ul.nav-list > :last-child {
+.nav-bar-component ul.nav-list > :last-child a {
 	text-transform: uppercase;
 	margin-right: calc((66 / 16) * 1rem);
 	padding: 0 calc((8 / 16) * 1rem);
@@ -201,6 +198,8 @@ header.header-component {
 	background-color: #087acc;
 	border: 1px solid #087acc;
 	height: calc((22 / 16) * 1rem);
+	font-size: calc((11 / 16) * 1px);
+	font-weight: 400;
 }
 .nav-bar-component ul.nav-list > :last-child a {
 	display: flex;
