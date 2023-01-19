@@ -1,0 +1,600 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:100,200,300,400,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif);
+
+body {
+    color: #212121;
+    font-family: "Noto Serif", serif;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+}
+
+a:hover, li:hover, .nav-bar-component li:hover, .nav-bar-component :hover .title {
+    text-decoration: none !important;
+}
+
+p, 
+.layout-component .layout-text-component p, 
+.layout-component .layout-text-component li, 
+.layout-component .layout-html-component p, 
+.layout-component .layout-html-component li
+{
+    font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Noto Sans",Arial,Helvetica,sans-serif;
+}
+header.header-component {
+    display: none;
+}
+.nav-bar-component, .footer-component {
+    font-family: "Noto Sans",Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    text-transform: none;
+    height: 100%;
+}
+.nav-bar-component {
+     margin-top: 54px;
+     margin-bottom: 42px;
+}
+.nav-bar-component.accent-color {
+    border-bottom: 0 !important;
+}
+.nav-bar-component .scrollable-nav {
+    line-height: 0;
+    overflow: hidden;
+}
+.nav-bar-component .scrollable-nav .overflow-gradient {
+    background: none;
+    border-bottom: 0;
+    top: 40px;
+    left: 165px;
+    width: 98%;
+    height: auto;
+}
+.nav-bar-component .container {
+    padding-left: 0;
+    padding-right: 0;
+    width: 98%;
+}
+.nav-bar-component .container .col-12 {
+    width: 100%;
+    margin-right: 0;
+}
+.nav-bar-component a {
+    height: 100%;
+    margin: 0;
+    padding-left: 0;
+    padding-right: .75rem;
+}
+.nav-bar-component a li {
+    text-transform: none;
+    margin: 0;
+    margin-left: 18px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.nav-bar-component a li:hover {
+    color: #0769b0;
+}
+.nav-bar-component a li .bp3-icon-share {
+    display: none;
+}
+.nav-bar-component ul.nav-list {
+    height: 30px;
+}
+.nav-bar-component ul.nav-list > :first-child {
+    padding-top: 0;
+    padding-right: 21px;
+    margin-right: 21px;
+    padding-left: 21px;
+    border-right: 1px #e0e0e0 solid;
+}
+.nav-bar-component ul.nav-list > :nth-child(2):before {
+    background-image: url("https://ui-patterns.elifesciences.org/assets/img/patterns/molecules/nav-primary-menu-ic.svg");
+    background-size: 24px;
+    display: inline-block;
+    width: 24px; 
+    height: 24px;
+    content:"";
+}
+.nav-bar-component ul.nav-list > :nth-child(2) li {
+    display: none;
+}
+.nav-bar-component ul.nav-list > :nth-child(7) {
+    margin-left: auto;
+}
+.nav-bar-component ul.nav-list > :nth-child(7):after {
+    background-image: url("https://ui-patterns.elifesciences.org/assets/img/patterns/molecules/nav-secondary-search-black-ic.svg");
+    background-size: 24px 24px;
+    display: inline-block;
+    width: 24px; 
+    height: 24px;
+    content: "";
+    margin-left: 4px;
+}
+.nav-bar-component ul.nav-list > :nth-child(8):after {
+    background-image: url("https://elifesciences.org/assets/patterns/img/patterns/molecules/nav-secondary-alert-black-ic.e9bb80fe.svg");
+    background-size: 24px;
+    display: inline-block;
+    width: 24px; 
+    height: 24px;
+    content: "";
+    margin-left: 4px;
+}
+
+.nav-bar-component ul.nav-list > :last-child:hover {
+    background-color: #0769b0;
+}
+
+.nav-bar-component ul.nav-list > :last-child li:hover {
+    color: white;
+}
+
+.nav-bar-component ul.nav-list > :last-child {
+    text-transform: uppercase;
+    margin-top: 4px;
+    margin-right: 66px;
+    padding: 0 8px;
+    margin-left: 21px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #087acc;
+    border: 1px solid #087acc;
+    height: 22px;
+}
+.nav-bar-component ul.nav-list > :last-child li {
+    margin-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 22px;
+    height: 22px;
+    text-transform: uppercase;
+}
+.nav-bar-component ul.nav-list > :first-child .title, .nav-bar-component ul.nav-list > :first-child > li {
+    display: none;
+}
+.nav-bar-component ul.nav-list > :first-child:before {
+    background-image: url("https://epp-storybook.elifesciences.org/static/media/elife-logo.c742044083e145f648d80e5e424ac02a.svg");
+    background-size: 88px 35px;
+    display: inline-block;
+    width: 88px; 
+    height: 35px;
+    content:"";
+}
+
+@media only screen and (min-width: 1200px) {
+    .nav-bar-component .scrollable-nav .overflow-gradient {
+        display: block;
+    }
+}
+
+/** Pub Body Header Hiding **/
+.pub-header-component {
+    display: none;
+}
+
+.user-member .pub-header-component {
+    display: block;
+}
+
+.user-member .pub-header-component .background-element {
+    display: none;
+}
+
+.user-member .pub-header-component .pub-header-content-component > * {
+    display: none;
+}
+
+.user-member .pub-header-component .pub-header-content-component .draft-release-buttons-component {
+    display: block;
+}
+
+.pub-body-component .editor .figure > .iframe {
+    height: 100%;
+}
+
+/** FOOTER **/
+.footer-component {
+    border-top: 1px #e0e0e0 solid;
+}
+
+.footer-component .container {
+    width: 100%;
+    max-width: unset;
+    margin: 0;
+}
+
+.footer-component .container .row .col-12 {
+    margin: 0;
+    width: 100%;
+}
+
+.footer-component .right {
+    text-align: center;
+    max-width: unset;
+}
+
+.separated {
+    display: grid;
+    grid-template:
+        'subscribe subscribe subscribe subscribe'
+        'privacy privacy privacy privacy'
+        '. . . .'
+        '. . mission mission'
+        '. . mission mission'
+        '. . mission mission'
+        '. . corp corp'
+        '. . corp corp'
+        '. . corp corp'
+        'social social address address'
+        'github github github github'
+        'certifications certifications copyright copyright'
+        /
+        25% 25% 25% 25%;
+}
+
+.separated > :first-child {
+    margin: 30px 0;
+    grid-area: subscribe;
+}
+
+.separated > :nth-child(2) {
+    color: #757575;
+    font-size: 12px;
+    grid-area: privacy;
+    border-bottom: 1px #e0e0e0 solid;
+    padding-bottom: 30px;
+}
+
+.footer-component ul.separated li:not(:last-child):after {
+    content: '';
+}
+
+.separated > :first-child a {
+    text-transform: uppercase;
+    padding: 8px 12px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #087acc;
+    border: 1px solid #087acc;
+}
+
+.separated > :first-child a:hover {
+    color: #fff;
+    background-color: #0769b0;
+}
+
+.separated > :nth-child(3), .separated > :nth-child(4), .separated > :nth-child(5), .separated > :nth-child(6) {
+    height: 120px;
+    padding: 24px;
+    border-bottom: 1px #e0e0e0 solid;
+    margin-bottom: 30px;
+}
+.separated > :nth-child(3) a, 
+.separated > :nth-child(4) a, 
+.separated > :nth-child(5) a, 
+.separated > :nth-child(6) a, 
+.separated > :nth-child(28) a {
+    display: block;
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.separated > :nth-child(3) a:hover,
+.separated > :nth-child(4) a:hover,
+.separated > :nth-child(5) a:hover,
+.separated > :nth-child(6) a:hover,
+.separated > :nth-child(28) a:hover
+ {
+    color: transparent;
+}
+
+.separated > :nth-child(3), .separated > :nth-child(4), .separated > :nth-child(5) {
+    border-right: 1px #e0e0e0 solid;
+}
+
+.separated > :nth-child(3) a {
+        background-image: url('https://elifesciences.org/assets/images/investors/hhmi.9d0951a2.svg');
+        background-size: 185px auto;
+}
+
+.separated > :nth-child(4) a {
+        background-image: url('https://elifesciences.org/assets/images/investors/wellcome.813f8634.svg');
+        background-size: 72px auto;
+}
+
+.separated > :nth-child(5) a {
+
+        background-image: url('https://elifesciences.org/assets/images/investors/max.89cebd37.svg');
+        background-size: 185px auto;
+}
+
+.separated > :nth-child(6) a {
+        background-image: url('https://elifesciences.org/assets/images/investors/kaw.c1bb2e4b.svg');
+        background-size: 125px auto;
+}
+
+.separated > :nth-child(7), 
+.separated > :nth-child(8), 
+.separated > :nth-child(9), 
+.separated > :nth-child(10),
+.separated > :nth-child(11), 
+.separated > :nth-child(12),
+.separated > :nth-child(13), 
+.separated > :nth-child(14), 
+.separated > :nth-child(15), 
+.separated > :nth-child(16),
+.separated > :nth-child(17),
+.separated > :nth-child(18) {
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 30px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.separated > :nth-child(7) a, 
+.separated > :nth-child(9) a, 
+.separated > :nth-child(11) a, 
+.separated > :nth-child(13) a,
+.separated > :nth-child(15) a, 
+.separated > :nth-child(17) a {
+    position: absolute;
+    left: 165px;
+}
+
+.separated > :nth-child(8) a, 
+.separated > :nth-child(10) a, 
+.separated > :nth-child(12) a, 
+.separated > :nth-child(14) a,
+.separated > :nth-child(16) a, 
+.separated > :nth-child(18) a {
+    position: absolute;
+    left: 86px;
+}
+
+.separated > :nth-child(19), .separated > :nth-child(20), .separated > :nth-child(27), .separated > :nth-child(29) {
+    text-align: left;
+    padding-right: 180px;
+}
+
+.separated > :nth-child(19) {
+    grid-area: mission;
+}
+
+.separated > :nth-child(20) {
+    grid-area: corp;
+}
+
+.separated > :nth-child(19) a, .separated > :nth-child(20) a, .separated > :nth-child(27) a, .separated > :nth-child(29) a {
+    display: none;
+}
+
+.separated > :nth-child(19):after, .separated > :nth-child(20):after, .separated > :nth-child(27):after, .separated > :nth-child(29):after {
+    font-family: 'Noto Serif';
+    font-size: 11px;
+    line-height: 24px;
+    font-weight: 300;
+    padding: 0 !important;
+}
+
+.separated > :nth-child(19):after {
+    content: 'eLife is a non-profit organisation inspired by research funders and led by scientists. Our mission is to help scientists accelerate discovery by operating a platform for research communication that encourages and recognises the most responsible behaviours in science.' !important;
+}
+
+.separated > :nth-child(20):after {
+    content: 'eLife Sciences Publications, Ltd is a limited liability non-profit non-stock corporation incorporated in the State of Delaware, USA, with company number 5030732, and is registered in the UK with company number FC030576 and branch number BR015634 at the address:' !important;
+}
+
+.separated > :nth-child(27):after {
+    content: 'eLife Sciences Publications, Ltd \A Westbrook Centre, Milton Road \A Cambridge CB4 1YG \A UK' !important;
+    white-space: pre-wrap;
+}
+
+.separated > :nth-child(29):after {
+    content: '© 2022 eLife Sciences Publications Ltd. Subject to a Creative Commons Attribution license, except where otherwise noted. ISSN: 2050-084X' !important;
+}
+
+.separated > :nth-child(21), 
+.separated > :nth-child(22), 
+.separated > :nth-child(23), 
+.separated > :nth-child(24), 
+.separated > :nth-child(25) {
+    margin-top: 50px;
+    grid-area: social;
+}
+
+.separated > :nth-child(21) a, 
+.separated > :nth-child(22) a, 
+.separated > :nth-child(23) a, 
+.separated > :nth-child(24) a, 
+.separated > :nth-child(25) a {
+    position: absolute;
+}
+
+.separated > :nth-child(21) a {
+    left: 164px;
+    z-index: 100;
+}
+
+.separated > :nth-child(26) {
+    text-align: left;
+    padding-left: 164px;
+    grid-area: github;
+}
+
+.separated > :nth-child(27) {
+    grid-area: address;
+}
+
+.separated > :nth-child(28) {
+    grid-area: certifications;
+    padding-top: 60px;
+}
+
+.separated > :nth-child(28) a {
+    background-image: url('https://elifesciences.org/assets/patterns/img/patterns/molecules/carbon-neutral.706efe6d.svg');
+    background-size: 247px auto;
+    background-position: 164px center;
+    text-align: left;
+    height: 50px;
+}
+
+.separated > :nth-child(29) {
+    grid-area: copyright;
+}
+
+.separated > :nth-child(30), .separated > :nth-child(31) {
+    display: none;
+}
+
+/* About Page */
+
+ol.section-listing {
+    display: flex;
+    justify-content: center;
+    column-gap: 36px; 
+    font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 150%;
+    margin-left: -25%;
+    border-top: 1px #e0e0e0 solid;
+    border-bottom: 1px #e0e0e0 solid;
+    padding: 10px 0;
+}
+
+ol.section-listing li {
+    list-style-type: none;
+}
+
+ol.section-listing li a {
+    text-decoration: none;
+}
+
+ol.section-listing li a:hover {
+    color: #0769b0;
+}
+
+ol.section-listing li.section-listing__list_item--current a {
+    color: #0769b0;
+}
+
+.layout-banner-component .block-content .container .row .col-12 {
+    padding: 28px;
+    padding-left: 56px;
+    background-image: url('https://elifesciences.org/assets/patterns/img/icons/info-blue.857b9409.svg');
+    background-position: 30px 28px;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+}
+.layout-banner-component .block-content .container .row .col-12 h2, .layout-banner-component .block-content .col-12 h2+.bp3-button {
+    font-family: 'Noto Sans', Arial, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 13px !important;
+    line-height: 16px !important;
+    display: inline;
+}
+
+.layout-banner-component .block-content .col-12 h2+.bp3-button {
+    background-color: unset;
+    background-image: none;
+    box-shadow: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: #0769b0;
+    margin-left: 2px;
+    bottom: 1px;
+}
+
+/* Paul experimenting */
+.two-column-parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 36px;
+    grid-row-gap: 0px;
+}
+
+.two-column-parent div {
+    width: 45%;
+}
+
+.two-column-first { grid-area: 1 / 1 / 2 / 3; }
+.two-column-second { grid-area: 1 / 2 / 2 / 3; }
+.two-column-third { grid-area: 1 / 1 / 2 / 2; }
+
+/* About page card styles - test */
+.grid {
+  /*border: 1px blue solid;*/
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 48px;
+  grid-row-gap: 48px;
+  padding: 0 24px;
+  /* max-width:1200px; */
+  margin-top:48px;
+  margin: 48px auto 0 auto;
+  
+}
+
+.card {
+  /*border: 1px orange solid;*/
+  grid-column: span 6;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 24px;
+  padding:12px;
+  
+}
+
+.card.right .card_text {
+ /*border: solid 1px red;*/
+ grid-column: 2 / 2;
+ grid-row: 1 / 1;
+}
+
+.card.right .img_placeholder {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+.img_placeholder {
+  width: 200px;
+  height: 200px;
+  background: #e0e0e0;
+  justify-self: end;  
+}
+
+.block-content .card h3 {
+  line-height: 2rem;;
+}
+
+@media only screen and (max-width : 1200px) {
+
+   .grid {
+     grid-template-columns: 1fr;
+     border: 1px solid green;
+     max-width: 800px;
+   }
+   /* Undo the flipped positioning for "right" classes below 1200px */
+   .card.right .card_text {
+     grid-column: 1 / 1;
+     grid-row: 1 / 1;
+    }
+
+    .card.right .img_placeholder {
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+    }
+}
+
