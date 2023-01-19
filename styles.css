@@ -641,4 +641,8 @@ ol.section-listing li.section-listing__list_item--current a {
 		grid-column: 2 / 2;
 		grid-row: 1 / 1;
 	}
+	.nav-bar-component ul.nav-list > :nth-child(7) a .title,
+	.nav-bar-component ul.nav-list > :nth-child(8) a .title {
+		display: none;
+	}
 }
