@@ -139,11 +139,13 @@ header.header-component {
 }
 .nav-bar-component ul.nav-list > :first-child {
 	padding-top: 0;
-	margin-right: calc((21 / 16) * 1rem);
 	padding-left: calc((21 / 16) * 1rem);
 	border-right: 1px #e0e0e0 solid;
 }
-.nav-bar-component ul.nav-list > :nth-child(2):before {
+.nav-bar-component ul.nav-list > :nth-child(2) a {
+	display: flex;
+}
+.nav-bar-component ul.nav-list > :nth-child(2) a:before {
 	background-image: url('https://ui-patterns.elifesciences.org/assets/img/patterns/molecules/nav-primary-menu-ic.svg');
 	background-size: 24px;
 	display: inline-block;
