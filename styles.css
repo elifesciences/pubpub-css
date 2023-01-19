@@ -55,6 +55,26 @@ h2,
     font-size: calc((26 / 16) * 1rem);
 }
 
+h3,
+.layout-component .block-content h3 {
+    font-size: calc((22 / 16) * 1rem);
+}
+
+h4,
+.layout-component .block-content h4 {
+    font-size: calc((20 / 16) * 1rem);
+}
+
+h5,
+.layout-component .block-content h5 {
+    font-size: calc((18 / 16) * 1rem);
+}
+
+h6,
+.layout-component .block-content h6 {
+    font-size: 1rem;
+}
+
 header.header-component {
 	display: none;
 }
