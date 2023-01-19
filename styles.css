@@ -30,6 +30,26 @@ h5,
 h6 {
 	font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
 }
+
+h1,
+.layout-component .block-content h1 {
+    font-size: calc((36 / 16) * 1rem);
+}
+
+@media screen and (min-width: 45.625em) {
+    h1,
+    .layout-component .block-content h1 {
+        font-size: calc((41 / 16) * 1rem);
+    }
+}
+
+@media screen and (min-width: 56.25em) {
+    h1,
+    .layout-component .block-content h1 {
+        font-size: calc((46 / 16) * 1rem);
+    }
+}
+
 header.header-component {
 	display: none;
 }
