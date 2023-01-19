@@ -163,7 +163,12 @@ header.header-component {
 	margin-left: auto;
 }
 
-.nav-bar-component ul.nav-list > :nth-child(7):after {
+.nav-bar-component ul.nav-list > :nth-child(7) a,
+.nav-bar-component ul.nav-list > :nth-child(8) a {
+	display: flex;
+}
+
+.nav-bar-component ul.nav-list > :nth-child(7) a:after {
 	background-image: url('https://ui-patterns.elifesciences.org/assets/img/patterns/molecules/nav-secondary-search-black-ic.svg');
 	background-size: 24px 24px;
 	display: inline-block;
@@ -172,7 +177,7 @@ header.header-component {
 	content: '';
 	margin-left: calc((4 / 16) * 1rem);
 }
-.nav-bar-component ul.nav-list > :nth-child(8):after {
+.nav-bar-component ul.nav-list > :nth-child(8) a:after {
 	background-image: url('https://elifesciences.org/assets/patterns/img/patterns/molecules/nav-secondary-alert-black-ic.e9bb80fe.svg');
 	background-size: 24px;
 	display: inline-block;
