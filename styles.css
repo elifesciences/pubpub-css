@@ -33,46 +33,46 @@ h6 {
 
 h1,
 .layout-component .block-content h1 {
-    font-size: calc((36 / 16) * 1rem);
+	font-size: calc((36 / 16) * 1rem);
 }
 
 @media screen and (min-width: 45.625em) {
-    h1,
-    .layout-component .block-content h1 {
-        font-size: calc((41 / 16) * 1rem);
-    }
+	h1,
+	.layout-component .block-content h1 {
+		font-size: calc((41 / 16) * 1rem);
+	}
 }
 
 @media screen and (min-width: 56.25em) {
-    h1,
-    .layout-component .block-content h1 {
-        font-size: calc((46 / 16) * 1rem);
-    }
+	h1,
+	.layout-component .block-content h1 {
+		font-size: calc((46 / 16) * 1rem);
+	}
 }
 
 h2,
 .layout-component .block-content h2 {
-    font-size: calc((26 / 16) * 1rem);
+	font-size: calc((26 / 16) * 1rem);
 }
 
 h3,
 .layout-component .block-content h3 {
-    font-size: calc((22 / 16) * 1rem);
+	font-size: calc((22 / 16) * 1rem);
 }
 
 h4,
 .layout-component .block-content h4 {
-    font-size: calc((20 / 16) * 1rem);
+	font-size: calc((20 / 16) * 1rem);
 }
 
 h5,
 .layout-component .block-content h5 {
-    font-size: calc((18 / 16) * 1rem);
+	font-size: calc((18 / 16) * 1rem);
 }
 
 h6,
 .layout-component .block-content h6 {
-    font-size: 1rem;
+	font-size: 1rem;
 }
 
 header.header-component {
@@ -127,14 +127,15 @@ header.header-component {
 	font-weight: 600;
 	line-height: 24px;
 }
-.nav-bar-component a li:hover {
-	color: #0769b0;
+.nav-bar-component li a:hover {
+	color: #087acc;
 }
-.nav-bar-component a li .bp3-icon-share {
+.nav-bar-component li a .bp3-icon-share {
 	display: none;
 }
 .nav-bar-component ul.nav-list {
 	height: 30px;
+	align-items: center;
 }
 .nav-bar-component ul.nav-list > :first-child {
 	padding-top: 0;
@@ -154,9 +155,15 @@ header.header-component {
 .nav-bar-component ul.nav-list > :nth-child(2) li {
 	display: none;
 }
+.nav-bar-component ul.nav-list > :nth-child(7),
+.nav-bar-component ul.nav-list > :nth-child(8),
+.nav-bar-component ul.nav-list > :nth-child(9) {
+	align-items: center;
+}
 .nav-bar-component ul.nav-list > :nth-child(7) {
 	margin-left: auto;
 }
+
 .nav-bar-component ul.nav-list > :nth-child(7):after {
 	background-image: url('https://ui-patterns.elifesciences.org/assets/img/patterns/molecules/nav-secondary-search-black-ic.svg');
 	background-size: 24px 24px;
@@ -177,7 +184,7 @@ header.header-component {
 }
 
 .nav-bar-component ul.nav-list > :last-child:hover {
-	background-color: #0769b0;
+	background-color: #087acc;
 }
 
 .nav-bar-component ul.nav-list > :last-child li:hover {
@@ -186,7 +193,6 @@ header.header-component {
 
 .nav-bar-component ul.nav-list > :last-child {
 	text-transform: uppercase;
-	margin-top: calc((4 / 16) * 1rem);
 	margin-right: calc((66 / 16) * 1rem);
 	padding: 0 calc((8 / 16) * 1rem);
 	margin-left: calc((21 / 16) * 1rem);
@@ -194,17 +200,11 @@ header.header-component {
 	color: #fff;
 	background-color: #087acc;
 	border: 1px solid #087acc;
-	height: 22px;
+	height: calc((22 / 16) * 1rem);
 }
-.nav-bar-component ul.nav-list > :last-child li {
-	margin-left: 0;
-	padding-top: 0;
-	padding-bottom: 0;
-	font-weight: 400;
-	font-size: 0.6875rem;
-	line-height: 22px;
-	height: 22px;
-	text-transform: uppercase;
+.nav-bar-component ul.nav-list > :last-child a {
+	display: flex;
+	padding-right: 0;
 }
 .nav-bar-component ul.nav-list > :first-child .title,
 .nav-bar-component ul.nav-list > :first-child > li {
@@ -318,7 +318,7 @@ header.header-component {
 
 .separated > :first-child a:hover {
 	color: #fff;
-	background-color: #0769b0;
+	background-color: #087acc;
 }
 
 .separated > :nth-child(3),
@@ -545,11 +545,11 @@ ol.section-listing li a {
 }
 
 ol.section-listing li a:hover {
-	color: #0769b0;
+	color: #087acc;
 }
 
 ol.section-listing li.section-listing__list_item--current a {
-	color: #0769b0;
+	color: #087acc;
 }
 
 /* Paul experimenting */
