@@ -189,6 +189,7 @@ header.header-component {
 }
 
 .nav-bar-component ul.nav-list > :last-child a {
+	display: flex;
 	text-transform: uppercase;
 	margin-right: calc((66 / 16) * 1rem);
 	padding: 0 calc((8 / 16) * 1rem);
@@ -198,13 +199,10 @@ header.header-component {
 	background-color: #087acc;
 	border: 1px solid #087acc;
 	height: calc((22 / 16) * 1rem);
-	font-size: calc((11 / 16) * 1px);
+	font-size: calc((11 / 16) * 1rem);
 	font-weight: 400;
 }
-.nav-bar-component ul.nav-list > :last-child a {
-	display: flex;
-	padding-right: 0;
-}
+
 .nav-bar-component ul.nav-list > :first-child .title,
 .nav-bar-component ul.nav-list > :first-child > li {
 	display: none;
