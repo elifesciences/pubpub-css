@@ -485,35 +485,6 @@ ol.section-listing li.section-listing__list_item--current a {
     color: #0769b0;
 }
 
-.layout-banner-component .block-content .container .row .col-12 {
-    padding: 28px;
-    padding-left: 56px;
-    background-image: url('https://elifesciences.org/assets/patterns/img/icons/info-blue.857b9409.svg');
-    background-position: 30px 28px;
-    background-repeat: no-repeat;
-    background-size: 24px 24px;
-}
-.layout-banner-component .block-content .container .row .col-12 h2, .layout-banner-component .block-content .col-12 h2+.bp3-button {
-    font-family: 'Noto Sans', Arial, Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    font-size: 13px !important;
-    line-height: 16px !important;
-    display: inline;
-}
-
-.layout-banner-component .block-content .col-12 h2+.bp3-button {
-    background-color: unset;
-    background-image: none;
-    box-shadow: none;
-    border: 0;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    color: #0769b0;
-    margin-left: 2px;
-    bottom: 1px;
-}
-
 /* Paul experimenting */
 .two-column-parent {
     display: grid;
