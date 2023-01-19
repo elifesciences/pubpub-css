@@ -64,13 +64,13 @@ header.header-component {
     height: 100%;
     margin: 0;
     padding-left: 0;
-    padding-right: .75rem;
+    padding-right: 0.75rem;
 }
 .nav-bar-component a li {
     text-transform: none;
     margin: 0;
     margin-left: 18px;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
     line-height: 24px;
 }
@@ -148,7 +148,7 @@ header.header-component {
     padding-top: 0;
     padding-bottom: 0;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 0.6875rem;
     line-height: 22px;
     height: 22px;
     text-transform: uppercase;
@@ -243,7 +243,7 @@ header.header-component {
 
 .separated > :nth-child(2) {
     color: #757575;
-    font-size: 12px;
+    font-size: 0.75rem;
     grid-area: privacy;
     border-bottom: 1px #e0e0e0 solid;
     padding-bottom: 30px;
@@ -333,7 +333,7 @@ header.header-component {
 .separated > :nth-child(17),
 .separated > :nth-child(18) {
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 0.6875rem;
     line-height: 30px;
     text-align: left;
     font-weight: 400;
@@ -378,7 +378,7 @@ header.header-component {
 
 .separated > :nth-child(19):after, .separated > :nth-child(20):after, .separated > :nth-child(27):after, .separated > :nth-child(29):after {
     font-family: 'Noto Serif';
-    font-size: 11px;
+    font-size: 0.6875rem;
     line-height: 24px;
     font-weight: 300;
     padding: 0 !important;
@@ -461,7 +461,7 @@ ol.section-listing {
     justify-content: center;
     column-gap: 36px;
     font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     width: 150%;
     margin-left: -25%;
     border-top: 1px #e0e0e0 solid;
