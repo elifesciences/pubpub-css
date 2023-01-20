@@ -16,6 +16,27 @@ li:hover,
 }
 
 p,
+.layout-component .layout-text-component p a,
+.layout-component .layout-text-component li a,
+.layout-component .layout-html-component p a,
+.layout-component .layout-html-component li a {
+	border-bottom: 1px dotted currentColor;
+}
+
+p,
+.layout-component .layout-text-component p a:hover,
+.layout-component .layout-text-component p a:visited,
+.layout-component .layout-text-component li a:hover,
+.layout-component .layout-text-component li a:visited,
+.layout-component .layout-html-component p a:hover,
+.layout-component .layout-html-component p a:visited,
+.layout-component .layout-html-component li a:hover,
+.layout-component .layout-html-component li a:visited {
+	border-bottom-color: #087acc;
+	color: #087acc;
+}
+
+p,
 .layout-component .layout-text-component p,
 .layout-component .layout-text-component li,
 .layout-component .layout-html-component p,
