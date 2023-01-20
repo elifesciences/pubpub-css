@@ -15,6 +15,15 @@ li:hover,
 	text-decoration: none !important;
 }
 
+ul, ol {
+    margin: 0 0 1.5rem;
+    padding-left: 1.25rem;
+}
+
+li, li > p {
+    margin-bottom: 0;
+}
+
 p,
 .layout-component .layout-text-component p,
 .layout-component .layout-text-component li,
