@@ -26,8 +26,7 @@ p,
 
 p,
 .layout-component .layout-text-component p,
-.layout-component .layout-html-component p,
- {
+.layout-component .layout-html-component p {
     margin-bottom: 1.5rem;
 }
 
