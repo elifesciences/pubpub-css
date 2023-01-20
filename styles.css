@@ -21,6 +21,7 @@ p a,
 .layout-component .layout-html-component p a,
 .layout-component .layout-html-component li a {
 	border-bottom: 1px dotted currentColor;
+	text-decoration: none;
 }
 
 p a:hover,
