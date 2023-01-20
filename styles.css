@@ -81,6 +81,12 @@ h6 {
 	font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
 }
 
+.layout-component .layout-text-component h2,
+.layout-component .layout-web-component h2 {
+	padding-top: calc((21 / 16) * 1rem);
+	padding-bottom: calc((21 / 16) * 1rem);
+}
+
 h1,
 .layout-component .block-content h1 {
 	font-size: calc((36 / 16) * 1rem);
