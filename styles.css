@@ -230,6 +230,17 @@ header.header-component {
 	}
 }
 
+h1#elife-evolution-of-publishing {
+	line-height: 48px;
+	text-align: center;
+}
+
+@media screen and (min-width: 56.25em) {
+	h1#elife-evolution-of-publishing {
+		line-height: 72px;
+	}
+}
+
 h1#elife-evolution-of-publishing ~ p {
 	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
 	line-height: 1.5;
