@@ -230,6 +230,13 @@ header.header-component {
 	}
 }
 
+h1#elife-evolution-of-publishing ~ p {
+	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	font-weight: 500;
+	margin-bottom: calc((24 / 16) * 1rem);
+}
+
 /** Pub Body Header Hiding **/
 .pub-header-component {
 	display: none;
