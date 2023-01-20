@@ -235,6 +235,7 @@ h1#elife-evolution-of-publishing ~ p {
 	line-height: 1.5;
 	font-weight: 500;
 	margin-bottom: calc((24 / 16) * 1rem);
+	text-align: center;
 }
 
 /** Pub Body Header Hiding **/
