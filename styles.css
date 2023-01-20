@@ -233,6 +233,11 @@ header.header-component {
 h1#elife-evolution-of-publishing {
 	line-height: 48px;
 	text-align: center;
+	font-weight: 700;
+}
+
+h1#elife-evolution-of-publishing strong {
+	font-weight: 700;
 }
 
 @media screen and (min-width: 56.25em) {
