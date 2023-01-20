@@ -85,6 +85,7 @@ h6 {
 .layout-component .layout-web-component h2 {
 	padding-top: calc((21 / 16) * 1rem);
 	padding-bottom: calc((21 / 16) * 1rem);
+	margin-bottom: 0;
 }
 
 h1,
