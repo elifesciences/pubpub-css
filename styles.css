@@ -93,8 +93,7 @@ header.header-component {
 	border-bottom: 0 !important;
 }
 .nav-bar-component .scrollable-nav {
-	line-height: 0;
-	overflow: hidden;
+	overflow: unset;
 }
 .nav-bar-component .scrollable-nav .overflow-gradient {
 	background: none;
