@@ -624,25 +624,40 @@ h1#elife-evolution-of-publishing ~ p {
 
 /* About Page */
 
+/* This selector is extremely brittle. As long a no-one changes the order of the page header and the About menu, it
+ will hopefully stand up, but no guarantees. */
+#main-content > .layout-component:first-child > .layout-html-component:nth-child(2) .container {
+	width: 98%;
+	max-width: calc(( 1200 / 16) * 1rem);
+	padding-left: 0;
+	padding-right: 0;
+}
+
 ol.section-listing {
 	display: flex;
 	justify-content: center;
 	column-gap: 36px;
 	font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
 	font-size: 1rem;
-	width: 150%;
 	margin-left: -25%;
 	border-top: 1px #e0e0e0 solid;
 	border-bottom: 1px #e0e0e0 solid;
-	padding: calc((10 / 16) * 1rem) 0;
+	padding-top: calc((11 / 16) * 1rem);
+	padding-bottom: calc((12 / 16) * 1rem);
+	padding-left: calc((24 / 16) * 1rem);
+	padding-right: calc((24 / 16) * 1rem);
 }
 
 ol.section-listing li {
 	list-style-type: none;
+	margin-left: calc((12 / 16) * 1rem);
+	margin-right: calc((12 / 16) * 1rem);
 }
 
-ol.section-listing li a {
+.layout-component .layout-html-component ol.section-listing li a {
 	text-decoration: none;
+	border-bottom-width: 0;
+	padding-bottom: 0;
 }
 
 ol.section-listing li a:hover {
