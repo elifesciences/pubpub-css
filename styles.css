@@ -219,21 +219,21 @@ header.header-component {
 .nav-bar-component ul.nav-list > :nth-child(2) li {
   display: none;
 }
-.nav-bar-component ul.nav-list > :nth-child(7),
-.nav-bar-component ul.nav-list > :nth-child(8),
-.nav-bar-component ul.nav-list > :nth-child(9) {
+.nav-bar-component ul.nav-list > :nth-child(11),
+.nav-bar-component ul.nav-list > :nth-child(12),
+.nav-bar-component ul.nav-list > :nth-child(13) {
   align-items: center;
 }
-.nav-bar-component ul.nav-list > :nth-child(7) {
+.nav-bar-component ul.nav-list > :nth-child(11) {
   margin-left: auto;
 }
 
-.nav-bar-component ul.nav-list > :nth-child(7) a,
-.nav-bar-component ul.nav-list > :nth-child(8) a {
+.nav-bar-component ul.nav-list > :nth-child(11) a,
+.nav-bar-component ul.nav-list > :nth-child(12) a {
   display: flex;
 }
 
-.nav-bar-component ul.nav-list > :nth-child(7) a:after {
+.nav-bar-component ul.nav-list > :nth-child(11) a:after {
   background-image: url("https://ui-patterns.elifesciences.org/assets/img/patterns/molecules/nav-secondary-search-black-ic.svg");
   background-size: 24px 24px;
   display: inline-block;
@@ -242,7 +242,7 @@ header.header-component {
   content: "";
   margin-left: calc((4 / 16) * 1rem);
 }
-.nav-bar-component ul.nav-list > :nth-child(8) a:after {
+.nav-bar-component ul.nav-list > :nth-child(12) a:after {
   background-image: url("https://elifesciences.org/assets/patterns/img/patterns/molecules/nav-secondary-alert-black-ic.e9bb80fe.svg");
   background-size: 24px;
   display: inline-block;
@@ -774,8 +774,8 @@ ol.section-listing li.section-listing__list_item--current a {
     grid-column: 2 / 2;
     grid-row: 1 / 1;
   }
-  .nav-bar-component ul.nav-list > :nth-child(7) a .title,
-  .nav-bar-component ul.nav-list > :nth-child(8) a .title {
+  .nav-bar-component ul.nav-list > :nth-child(11) a .title,
+  .nav-bar-component ul.nav-list > :nth-child(12) a .title {
     display: none;
   }
 }
