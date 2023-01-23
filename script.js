@@ -33,4 +33,4 @@ navItems.appendChild(reviewerGuide);
 
 // prepend menu div to body
 const body = document.querySelector("body");
-body.prepend(div);
+body.prepend(menuDiv);
