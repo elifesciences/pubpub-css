@@ -273,13 +273,15 @@ header.header-component {
 }
 
 .nav-bar-component ul.nav-list > :first-child .title,
-.nav-bar-component ul.nav-list > :first-child > li {
+.nav-bar-component ul.nav-list > :first-child > li,
+.elife-nav-menu > :first-child .title {
   display: none;
 }
 .nav-bar-component ul.nav-list > :first-child a {
   display: flex;
 }
-.nav-bar-component ul.nav-list > :first-child a:before {
+.nav-bar-component ul.nav-list > :first-child a:before,
+.elife-nav-menu > :first-child:before {
   background-image: url("https://assets.pubpub.org/pm5kgkt7/41674145834317.svg");
   background-size: 88px 35px;
   display: inline-block;

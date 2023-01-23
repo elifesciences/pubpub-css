@@ -1,6 +1,13 @@
 const body = document.querySelector("body");
 const div = document.createElement("div");
 div.setAttribute("class", "elife-nav-menu");
+
+const logo = document
+  .querySelector(".nav-list > :first-child a")
+  .cloneNode(true);
+
+div.appendChild(logo);
+
 const researchCategories = document.querySelector(
   ".nav-bar-component ul.nav-list > :nth-child(7)"
 );
