@@ -637,15 +637,22 @@ ol.section-listing {
 	margin-left: -25%;
 	border-top: 1px #e0e0e0 solid;
 	border-bottom: 1px #e0e0e0 solid;
-	padding: calc((10 / 16) * 1rem) 0;
+	padding-top: calc((11 / 16) * 1rem);
+	padding-bottom: calc((12 / 16) * 1rem);
+	padding-left: calc((24 / 16) * 1rem);
+	padding-right: calc((24 / 16) * 1rem);
 }
 
 ol.section-listing li {
 	list-style-type: none;
+	margin-left: calc((12 / 16) * 1rem);
+	margin-right: calc((12 / 16) * 1rem);
 }
 
 ol.section-listing li a {
 	text-decoration: none;
+	border-bottom-width: 0;
+	padding-bottom: 0;
 }
 
 ol.section-listing li a:hover {
