@@ -83,7 +83,8 @@ h6 {
 }
 
 .layout-component .layout-text-component h2,
-.layout-component .layout-web-component h2 {
+.layout-component .layout-web-component h2,
+.separated > :first-child:before {
   padding-top: calc((21 / 16) * 1rem);
   padding-bottom: calc((21 / 16) * 1rem);
   margin-bottom: 0;
@@ -109,7 +110,8 @@ h1,
 }
 
 h2,
-.layout-component .block-content h2 {
+.layout-component .block-content h2,
+.separated > :first-child:before {
   font-size: calc((26 / 16) * 1rem);
 }
 
@@ -399,10 +401,12 @@ h1#elife-evolution-of-publishing ~ p {
 .separated > :first-child {
   margin: calc((30 / 16) * 1rem) 0;
   grid-area: subscribe;
+  display: inline-block;
 }
 
 .separated > :first-child:before {
   content: "Be the first to read new articles from eLife";
+  display: block;
 }
 
 .separated > :nth-child(2) {
