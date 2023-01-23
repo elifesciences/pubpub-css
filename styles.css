@@ -406,10 +406,10 @@ h1#elife-evolution-of-publishing ~ p {
   display: inline-block;
 }
 
-.footer-title {
+.footer-component .right .footer-title {
+  font-weight: bold;
   font-size: 1.25rem;
   line-height: 1.2;
-  padding-bottom: 1.5rem;
   display: block;
 }
 
