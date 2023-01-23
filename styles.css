@@ -139,7 +139,8 @@ header.header-component {
 }
 
 .nav-bar-component,
-.footer-component {
+.footer-component,
+.elife-nav-menu {
   font-family: "Noto Sans", Arial, Helvetica, sans-serif;
   font-size: 0.875rem;
   text-transform: none;
@@ -780,4 +781,17 @@ ol.section-listing li.section-listing__list_item--current a {
   .nav-bar-component ul.nav-list > :nth-child(8) a .title {
     display: none;
   }
+}
+
+.elife-nav-menu {
+  display: block;
+  position: fixed;
+  height: 100vh;
+  z-index: 40;
+  left: -3000px;
+  transform: translate3d(3000px, 0, 0);
+  top: 0;
+  overflow: auto;
+  width: 20rem;
+  max-width: 100%;
 }
