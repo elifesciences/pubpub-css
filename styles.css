@@ -139,8 +139,7 @@ header.header-component {
 }
 
 .nav-bar-component,
-.footer-component,
-.elife-nav-menu {
+.footer-component {
   font-family: "Noto Sans", Arial, Helvetica, sans-serif;
   font-size: 0.875rem;
   text-transform: none;
@@ -794,4 +793,12 @@ ol.section-listing li.section-listing__list_item--current a {
   overflow: auto;
   width: 20rem;
   max-width: 100%;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: #fff;
+  margin-top: calc((54 / 16) * 1rem);
+}
+
+.elife-nav-menu li {
+  display: list-item;
 }

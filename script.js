@@ -1,6 +1,6 @@
 const body = document.querySelector("body");
 const div = document.createElement("div");
-div.setAttribute("class", "elife-nav-menu");
+div.setAttribute("class", "elife-nav-menu nav-bar-component");
 
 const logo = document
   .querySelector(".nav-list > :first-child a")
