@@ -362,7 +362,7 @@ h1#elife-evolution-of-publishing ~ p {
 }
 
 .footer-component a.link[href="https://elifesciences.org/privacy"]:hover {
-	text-decoration: underline;
+	text-decoration: underline !important;
 	color: #087acc;
 }
 
