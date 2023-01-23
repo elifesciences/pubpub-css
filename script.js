@@ -24,4 +24,5 @@ div.appendChild(researchCategories);
 div.appendChild(insideElife);
 div.appendChild(authorGuide);
 div.appendChild(reviewerGuide);
-body.appendChild(div);
+
+body.prepend(div);
