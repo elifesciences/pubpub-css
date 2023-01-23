@@ -404,11 +404,12 @@ h1#elife-evolution-of-publishing ~ p {
 
 .separated > :first-child a {
 	text-transform: uppercase;
-	padding: calc((8 / 16) * 1rem) calc((12 / 16) * 1rem);
+	padding: calc((15 / 16) * 1rem) calc((36 / 16) * 1rem) calc((14 / 16) * 1rem);
 	border-radius: 3px;
 	color: #fff;
 	background-color: #087acc;
 	border: 1px solid #087acc;
+    line-height: 1;
 }
 
 .separated > :first-child a:hover {
