@@ -135,6 +135,7 @@ h6,
 header.header-component {
 	display: none;
 }
+
 .nav-bar-component,
 .footer-component {
 	font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
@@ -142,10 +143,14 @@ header.header-component {
 	text-transform: none;
 	height: 100%;
 }
+
 .nav-bar-component {
 	margin-top: calc((54 / 16) * 1rem);
 	margin-bottom: calc((42 / 16) * 1rem);
+    padding-left: calc((24 / 16) * 1rem);
+    padding-right: calc((24 / 16) * 1rem);
 }
+
 .nav-bar-component.accent-color {
 	border-bottom: 0 !important;
 }
