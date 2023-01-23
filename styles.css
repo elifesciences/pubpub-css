@@ -619,6 +619,15 @@ h1#elife-evolution-of-publishing ~ p {
 
 /* About Page */
 
+/* This selector is extremely brittle. As long a no-one changes the order of the page header and the About menu, it
+ will hopefully stand up, but no guarantees. */
+#main-content > .layout-component:first-child > .layout-html-component:nth-child(2) .container {
+	width: 98%;
+	max-width: calc(( 1200 / 16) * 1rem);
+	padding-left: 0;
+	padding-right: 0;
+}
+
 ol.section-listing {
 	display: flex;
 	justify-content: center;
