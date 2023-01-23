@@ -5,8 +5,9 @@ menuDiv.setAttribute("class", "elife-nav-menu nav-bar-component");
 // clone logo and add to div
 const logo = document
   .querySelector(".nav-list > :first-child a")
-  .cloneNode(true)
-  .setAttribute("class", "elife-nav-logo");
+  .cloneNode(true);
+
+logo.setAttribute("class", "elife-nav-logo");
 
 menuDiv.appendChild(logo);
 
