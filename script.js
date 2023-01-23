@@ -9,6 +9,7 @@ const logo = document
 
 menuDiv.appendChild(logo);
 
+// create nav items ul
 const navItems = document.createElement("ul");
 navItems.setAttribute("class", "elife-nav-items");
 
@@ -30,6 +31,9 @@ navItems.appendChild(researchCategories);
 navItems.appendChild(insideElife);
 navItems.appendChild(authorGuide);
 navItems.appendChild(reviewerGuide);
+
+// add navItems to menu div
+menuDiv.append(navItems);
 
 // prepend menu div to body
 const body = document.querySelector("body");
