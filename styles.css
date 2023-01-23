@@ -401,6 +401,9 @@ h1#elife-evolution-of-publishing ~ p {
 .separated > :first-child {
   margin: calc((30 / 16) * 1rem) 0;
   grid-area: subscribe;
+}
+
+.separated > :first-child a {
   display: inline-block;
 }
 
