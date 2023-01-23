@@ -2,17 +2,17 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif);
 
 body {
-	color: #212121;
-	font-family: 'Noto Serif', serif;
-	font-size: 16px;
-	text-rendering: optimizeLegibility;
+  color: #212121;
+  font-family: "Noto Serif", serif;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
 }
 
 a:hover,
 li:hover,
 .nav-bar-component li:hover,
 .nav-bar-component :hover .title {
-	text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 p a,
@@ -20,9 +20,9 @@ p a,
 .layout-component .layout-text-component li a,
 .layout-component .layout-html-component p a,
 .layout-component .layout-html-component li a {
-	border-bottom: 1px dotted currentColor;
-	padding-bottom: 2px;
-	text-decoration: none;
+  border-bottom: 1px dotted currentColor;
+  padding-bottom: 2px;
+  text-decoration: none;
 }
 
 p a:hover,
@@ -35,8 +35,8 @@ p a:visited,
 .layout-component .layout-html-component p a:visited,
 .layout-component .layout-html-component li a:hover,
 .layout-component .layout-html-component li a:visited {
-	border-bottom-color: #087acc;
-	color: #087acc;
+  border-bottom-color: #087acc;
+  color: #087acc;
 }
 
 p,
@@ -44,23 +44,24 @@ p,
 .layout-component .layout-text-component li,
 .layout-component .layout-html-component p,
 .layout-component .layout-html-component li {
-	font-size: 1rem;
-	line-height: 1.5;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 p,
 .layout-component .layout-text-component p,
 .layout-component .layout-html-component p {
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
-ul, ol,
+ul,
+ol,
 .layout-component .layout-text-component ul,
 .layout-component .layout-html-component ul,
 .layout-component .layout-text-component ol,
 .layout-component .layout-html-component ol {
-    margin: 0 0 1.5rem;
-    padding-left: 1.25rem;
+  margin: 0 0 1.5rem;
+  padding-left: 1.25rem;
 }
 
 li,
@@ -69,7 +70,7 @@ li > p,
 .layout-component .layout-text-component li > p,
 .layout-component .layout-html-component li,
 .layout-component .layout-html-component li > p {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 h1,
@@ -78,370 +79,379 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
+  font-family: "Noto Sans", Arial, Helvetica, sans-serif;
 }
 
 .layout-component .layout-text-component h2,
 .layout-component .layout-web-component h2 {
-	padding-top: calc((21 / 16) * 1rem);
-	padding-bottom: calc((21 / 16) * 1rem);
-	margin-bottom: 0;
+  padding-top: calc((21 / 16) * 1rem);
+  padding-bottom: calc((21 / 16) * 1rem);
+  margin-bottom: 0;
 }
 
 h1,
 .layout-component .block-content h1 {
-	font-size: calc((36 / 16) * 1rem);
+  font-size: calc((36 / 16) * 1rem);
 }
 
 @media screen and (min-width: 45.625em) {
-	h1,
-	.layout-component .block-content h1 {
-		font-size: calc((41 / 16) * 1rem);
-	}
+  h1,
+  .layout-component .block-content h1 {
+    font-size: calc((41 / 16) * 1rem);
+  }
 }
 
 @media screen and (min-width: 56.25em) {
-	h1,
-	.layout-component .block-content h1 {
-		font-size: calc((46 / 16) * 1rem);
-	}
+  h1,
+  .layout-component .block-content h1 {
+    font-size: calc((46 / 16) * 1rem);
+  }
 }
 
 h2,
 .layout-component .block-content h2 {
-	font-size: calc((26 / 16) * 1rem);
+  font-size: calc((26 / 16) * 1rem);
 }
 
 h3,
 .layout-component .block-content h3 {
-	font-size: calc((22 / 16) * 1rem);
+  font-size: calc((22 / 16) * 1rem);
 }
 
 h4,
 .layout-component .block-content h4 {
-	font-size: calc((20 / 16) * 1rem);
+  font-size: calc((20 / 16) * 1rem);
 }
 
 h5,
 .layout-component .block-content h5 {
-	font-size: calc((18 / 16) * 1rem);
+  font-size: calc((18 / 16) * 1rem);
 }
 
 h6,
 .layout-component .block-content h6 {
-	font-size: 1rem;
+  font-size: 1rem;
 }
 
 header.header-component {
-	display: none;
+  display: none;
 }
 
 .nav-bar-component,
 .footer-component {
-	font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
-	font-size: 0.875rem;
-	text-transform: none;
-	height: 100%;
+  font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  text-transform: none;
+  height: 100%;
 }
 
 .nav-bar-component {
-	margin-top: calc((54 / 16) * 1rem);
-	margin-bottom: calc((42 / 16) * 1rem);
-    padding-left: calc((24 / 16) * 1rem);
-    padding-right: calc((24 / 16) * 1rem);
+  margin-top: calc((54 / 16) * 1rem);
+  margin-bottom: calc((42 / 16) * 1rem);
+  padding-left: calc((24 / 16) * 1rem);
+  padding-right: calc((24 / 16) * 1rem);
 }
 
 .nav-bar-component.accent-color {
-	border-bottom: 0 !important;
+  border-bottom: 0 !important;
 }
 .nav-bar-component .scrollable-nav {
-	overflow: unset;
+  overflow: unset;
 }
 .nav-bar-component .scrollable-nav .overflow-gradient {
-	background: none;
-	border-bottom: 0;
-	top: 40px;
-	left: 165px;
-	width: 98%;
-	height: auto;
+  background: none;
+  border-bottom: 0;
+  top: 40px;
+  left: 165px;
+  width: 98%;
+  height: auto;
 }
 .nav-bar-component .container {
-	padding-left: 0;
-	padding-right: 0;
-	width: 98%;
+  padding-left: 0;
+  padding-right: 0;
+  width: 98%;
 }
 .nav-bar-component .container .col-12 {
-	width: 100%;
-	margin-right: 0;
+  width: 100%;
+  margin-right: 0;
 }
 .nav-bar-component a {
-	height: 100%;
-	margin: 0;
-	padding-left: 0;
-	padding-right: 0.75rem;
+  height: 100%;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0.75rem;
 }
 .nav-bar-component li a {
-	text-transform: none;
-	margin: 0;
-	margin-left: calc((18 / 16) * 1rem);
-	font-size: 0.875rem;
-	font-weight: 600;
-	line-height: 24px;
+  text-transform: none;
+  margin: 0;
+  margin-left: calc((18 / 16) * 1rem);
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 24px;
 }
 .nav-bar-component li a:hover {
-	color: #087acc;
+  color: #087acc;
 }
 .nav-bar-component li a .bp3-icon-share {
-	display: none;
+  display: none;
 }
 .nav-bar-component ul.nav-list {
-	height: 30px;
-	align-items: center;
+  height: 30px;
+  align-items: center;
 }
 .nav-bar-component ul.nav-list > :first-child {
-	padding-top: 0;
-	padding-left: calc((21 / 16) * 1rem);
-	border-right: 1px #e0e0e0 solid;
+  padding-top: 0;
+  padding-left: calc((21 / 16) * 1rem);
+  border-right: 1px #e0e0e0 solid;
 }
 .nav-bar-component ul.nav-list > :nth-child(2) a {
-	display: flex;
+  display: flex;
 }
 .nav-bar-component ul.nav-list > :nth-child(2) a:before {
-	background-image: url('https://ui-patterns.elifesciences.org/assets/img/patterns/molecules/nav-primary-menu-ic.svg');
-	background-size: 24px;
-	display: inline-block;
-	width: 24px;
-	height: 24px;
-	content: '';
+  background-image: url("https://ui-patterns.elifesciences.org/assets/img/patterns/molecules/nav-primary-menu-ic.svg");
+  background-size: 24px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  content: "";
 }
 .nav-bar-component ul.nav-list > :nth-child(2) li {
-	display: none;
+  display: none;
 }
 .nav-bar-component ul.nav-list > :nth-child(7),
 .nav-bar-component ul.nav-list > :nth-child(8),
 .nav-bar-component ul.nav-list > :nth-child(9) {
-	align-items: center;
+  align-items: center;
 }
 .nav-bar-component ul.nav-list > :nth-child(7) {
-	margin-left: auto;
+  margin-left: auto;
 }
 
 .nav-bar-component ul.nav-list > :nth-child(7) a,
 .nav-bar-component ul.nav-list > :nth-child(8) a {
-	display: flex;
+  display: flex;
 }
 
 .nav-bar-component ul.nav-list > :nth-child(7) a:after {
-	background-image: url('https://ui-patterns.elifesciences.org/assets/img/patterns/molecules/nav-secondary-search-black-ic.svg');
-	background-size: 24px 24px;
-	display: inline-block;
-	width: 24px;
-	height: 24px;
-	content: '';
-	margin-left: calc((4 / 16) * 1rem);
+  background-image: url("https://ui-patterns.elifesciences.org/assets/img/patterns/molecules/nav-secondary-search-black-ic.svg");
+  background-size: 24px 24px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  content: "";
+  margin-left: calc((4 / 16) * 1rem);
 }
 .nav-bar-component ul.nav-list > :nth-child(8) a:after {
-	background-image: url('https://elifesciences.org/assets/patterns/img/patterns/molecules/nav-secondary-alert-black-ic.e9bb80fe.svg');
-	background-size: 24px;
-	display: inline-block;
-	width: 24px;
-	height: 24px;
-	content: '';
-	margin-left: calc((4 / 16) * 1rem);
+  background-image: url("https://elifesciences.org/assets/patterns/img/patterns/molecules/nav-secondary-alert-black-ic.e9bb80fe.svg");
+  background-size: 24px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  content: "";
+  margin-left: calc((4 / 16) * 1rem);
 }
 
 .nav-bar-component ul.nav-list > :last-child a:hover {
-	color: white;
-	background-color: #0769b0;
+  color: white;
+  background-color: #0769b0;
 }
 
 .nav-bar-component ul.nav-list > :last-child a {
-	display: flex;
-	text-transform: uppercase;
-	margin-right: calc((66 / 16) * 1rem);
-	padding: 0 calc((8 / 16) * 1rem);
-	margin-left: calc((21 / 16) * 1rem);
-	border-radius: 3px;
-	color: #fff;
-	background-color: #087acc;
-	border: 1px solid #087acc;
-	height: calc((22 / 16) * 1rem);
-	font-size: calc((11 / 16) * 1rem);
-	font-weight: 400;
+  display: flex;
+  text-transform: uppercase;
+  margin-right: calc((66 / 16) * 1rem);
+  padding: 0 calc((8 / 16) * 1rem);
+  margin-left: calc((21 / 16) * 1rem);
+  border-radius: 3px;
+  color: #fff;
+  background-color: #087acc;
+  border: 1px solid #087acc;
+  height: calc((22 / 16) * 1rem);
+  font-size: calc((11 / 16) * 1rem);
+  font-weight: 400;
 }
 
 .nav-bar-component ul.nav-list > :first-child .title,
 .nav-bar-component ul.nav-list > :first-child > li {
-	display: none;
+  display: none;
 }
 .nav-bar-component ul.nav-list > :first-child a {
-	display: flex;
+  display: flex;
 }
 .nav-bar-component ul.nav-list > :first-child a:before {
-	background-image: url('https://assets.pubpub.org/pm5kgkt7/41674145834317.svg');
-	background-size: 88px 35px;
-	display: inline-block;
-	width: 88px;
-	height: 35px;
-	content: '';
+  background-image: url("https://assets.pubpub.org/pm5kgkt7/41674145834317.svg");
+  background-size: 88px 35px;
+  display: inline-block;
+  width: 88px;
+  height: 35px;
+  content: "";
 }
 
 @media only screen and (min-width: 1200px) {
-	.nav-bar-component .scrollable-nav .overflow-gradient {
-		display: block;
-	}
+  .nav-bar-component .scrollable-nav .overflow-gradient {
+    display: block;
+  }
 }
 
 h1#elife-evolution-of-publishing {
-	line-height: 48px;
-	text-align: center;
-	font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  font-weight: 700;
 }
 
 h1#elife-evolution-of-publishing strong {
-	font-weight: 700;
+  font-weight: 700;
 }
 
 @media screen and (min-width: 56.25em) {
-	h1#elife-evolution-of-publishing {
-		line-height: 72px;
-	}
+  h1#elife-evolution-of-publishing {
+    line-height: 72px;
+  }
 }
 
 h1#elife-evolution-of-publishing ~ p {
-	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
-	line-height: 1.5;
-	font-weight: 500;
-	margin-bottom: calc((24 / 16) * 1rem);
-	text-align: center;
+  font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  margin-bottom: calc((24 / 16) * 1rem);
+  text-align: center;
 }
 
 /** Pub Body Header Hiding **/
 .pub-header-component {
-	display: none;
+  display: none;
 }
 
 .user-member .pub-header-component {
-	display: block;
+  display: block;
 }
 
 .user-member .pub-header-component .background-element {
-	display: none;
+  display: none;
 }
 
 .user-member .pub-header-component .pub-header-content-component > * {
-	display: none;
+  display: none;
 }
 
-.user-member .pub-header-component .pub-header-content-component .draft-release-buttons-component {
-	display: block;
+.user-member
+  .pub-header-component
+  .pub-header-content-component
+  .draft-release-buttons-component {
+  display: block;
 }
 
 .pub-body-component .editor .figure > .iframe {
-	height: 100%;
+  height: 100%;
 }
 
 /** FOOTER **/
 .footer-component {
-	border-top: 1px #e0e0e0 solid;
+  border-top: 1px #e0e0e0 solid;
 }
 
 .footer-component .container {
-	width: 100%;
-	max-width: unset;
-	margin: 0;
+  width: 100%;
+  max-width: unset;
+  margin: 0;
 }
 
 .footer-component .container .row .col-12 {
-	margin: 0;
-	width: 100%;
+  margin: 0;
+  width: 100%;
 }
 
 .footer-component .right {
-	text-align: center;
-	max-width: unset;
+  text-align: center;
+  max-width: unset;
 }
 
-.footer-component a.link[href="https://elifesciences.org/privacy"] {
-    color: #757575;
+.footer-component a.link[href="https://elifesciences.org/privacy"]
+{
+  color: #757575;
 }
 
-.footer-component a.link[href="https://elifesciences.org/privacy"]:hover {
-	text-decoration: underline !important;
-	color: #087acc;
+.footer-component a.link[href="https://elifesciences.org/privacy"]:hover
+{
+  text-decoration: underline !important;
+  color: #087acc;
 }
 
 .separated {
-	display: grid;
-	grid-template:
-		'subscribe subscribe subscribe subscribe'
-		'privacy privacy privacy privacy'
-		'. . . .'
-		'. . mission mission'
-		'. . mission mission'
-		'. . mission mission'
-		'. . corp corp'
-		'. . corp corp'
-		'. . corp corp'
-		'social social address address'
-		'github github github github'
-		'certifications certifications copyright copyright'
-		/
-		25% 25% 25% 25%;
+  display: grid;
+  grid-template:
+    "subscribe subscribe subscribe subscribe"
+    "privacy privacy privacy privacy"
+    ". . . ."
+    ". . mission mission"
+    ". . mission mission"
+    ". . mission mission"
+    ". . corp corp"
+    ". . corp corp"
+    ". . corp corp"
+    "social social address address"
+    "github github github github"
+    "certifications certifications copyright copyright"
+    /
+    25% 25% 25% 25%;
 }
 
 .separated > :first-child {
-	margin: calc((30 / 16) * 1rem) 0;
-	grid-area: subscribe;
+  margin: calc((30 / 16) * 1rem) 0;
+  grid-area: subscribe;
+}
+
+.separated > :first-child:before {
+  content: "Be the first to read new articles from eLife";
 }
 
 .separated > :nth-child(2) {
-	color: #757575;
-	font-size: 0.75rem;
-	grid-area: privacy;
-	border-bottom: 1px #e0e0e0 solid;
-	padding-bottom: calc((30 / 16) * 1rem);
+  color: #757575;
+  font-size: 0.75rem;
+  grid-area: privacy;
+  border-bottom: 1px #e0e0e0 solid;
+  padding-bottom: calc((30 / 16) * 1rem);
 }
 
 .footer-component ul.separated li:not(:last-child):after {
-	content: '';
+  content: "";
 }
 
 .separated > :first-child a {
-	text-transform: uppercase;
-	padding: calc((15 / 16) * 1rem) calc((36 / 16) * 1rem) calc((14 / 16) * 1rem);
-	border-radius: 3px;
-	color: #fff;
-	background-color: #087acc;
-	border: 1px solid #087acc;
-    line-height: 1;
+  text-transform: uppercase;
+  padding: calc((15 / 16) * 1rem) calc((36 / 16) * 1rem) calc((14 / 16) * 1rem);
+  border-radius: 3px;
+  color: #fff;
+  background-color: #087acc;
+  border: 1px solid #087acc;
+  line-height: 1;
 }
 
 .separated > :first-child a:hover {
-	color: #fff;
-	background-color: #0769b0;
+  color: #fff;
+  background-color: #0769b0;
 }
 
 .separated > :nth-child(3),
 .separated > :nth-child(4),
 .separated > :nth-child(5),
 .separated > :nth-child(6) {
-	height: 120px;
-	padding: calc((24 / 16) * 1rem);
-	border-bottom: 1px #e0e0e0 solid;
-	margin-bottom: calc((30 / 16) * 1rem);
+  height: 120px;
+  padding: calc((24 / 16) * 1rem);
+  border-bottom: 1px #e0e0e0 solid;
+  margin-bottom: calc((30 / 16) * 1rem);
 }
 .separated > :nth-child(3) a,
 .separated > :nth-child(4) a,
 .separated > :nth-child(5) a,
 .separated > :nth-child(6) a,
 .separated > :nth-child(28) a {
-	display: block;
-	color: transparent;
-	width: 100%;
-	height: 100%;
-	background-repeat: no-repeat;
-	background-position: center center;
+  display: block;
+  color: transparent;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .separated > :nth-child(3) a:hover,
@@ -449,33 +459,33 @@ h1#elife-evolution-of-publishing ~ p {
 .separated > :nth-child(5) a:hover,
 .separated > :nth-child(6) a:hover,
 .separated > :nth-child(28) a:hover {
-	color: transparent;
+  color: transparent;
 }
 
 .separated > :nth-child(3),
 .separated > :nth-child(4),
 .separated > :nth-child(5) {
-	border-right: 1px #e0e0e0 solid;
+  border-right: 1px #e0e0e0 solid;
 }
 
 .separated > :nth-child(3) a {
-	background-image: url('https://elifesciences.org/assets/images/investors/hhmi.9d0951a2.svg');
-	background-size: 185px auto;
+  background-image: url("https://elifesciences.org/assets/images/investors/hhmi.9d0951a2.svg");
+  background-size: 185px auto;
 }
 
 .separated > :nth-child(4) a {
-	background-image: url('https://elifesciences.org/assets/images/investors/wellcome.813f8634.svg');
-	background-size: 72px auto;
+  background-image: url("https://elifesciences.org/assets/images/investors/wellcome.813f8634.svg");
+  background-size: 72px auto;
 }
 
 .separated > :nth-child(5) a {
-	background-image: url('https://elifesciences.org/assets/images/investors/max.89cebd37.svg');
-	background-size: 185px auto;
+  background-image: url("https://elifesciences.org/assets/images/investors/max.89cebd37.svg");
+  background-size: 185px auto;
 }
 
 .separated > :nth-child(6) a {
-	background-image: url('https://elifesciences.org/assets/images/investors/kaw.c1bb2e4b.svg');
-	background-size: 125px auto;
+  background-image: url("https://elifesciences.org/assets/images/investors/kaw.c1bb2e4b.svg");
+  background-size: 125px auto;
 }
 
 .separated > :nth-child(7),
@@ -490,11 +500,11 @@ h1#elife-evolution-of-publishing ~ p {
 .separated > :nth-child(16),
 .separated > :nth-child(17),
 .separated > :nth-child(18) {
-	text-transform: uppercase;
-	font-size: 0.6875rem;
-	line-height: 30px;
-	text-align: left;
-	font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.6875rem;
+  line-height: 30px;
+  text-align: left;
+  font-weight: 400;
 }
 
 .separated > :nth-child(7) a,
@@ -503,8 +513,8 @@ h1#elife-evolution-of-publishing ~ p {
 .separated > :nth-child(13) a,
 .separated > :nth-child(15) a,
 .separated > :nth-child(17) a {
-	position: absolute;
-	left: 165px;
+  position: absolute;
+  left: 165px;
 }
 
 .separated > :nth-child(8) a,
@@ -513,59 +523,59 @@ h1#elife-evolution-of-publishing ~ p {
 .separated > :nth-child(14) a,
 .separated > :nth-child(16) a,
 .separated > :nth-child(18) a {
-	position: absolute;
-	left: 86px;
+  position: absolute;
+  left: 86px;
 }
 
 .separated > :nth-child(19),
 .separated > :nth-child(20),
 .separated > :nth-child(27),
 .separated > :nth-child(29) {
-	text-align: left;
-	padding-right: calc((180 / 16) * 1rem);
+  text-align: left;
+  padding-right: calc((180 / 16) * 1rem);
 }
 
 .separated > :nth-child(19) {
-	grid-area: mission;
+  grid-area: mission;
 }
 
 .separated > :nth-child(20) {
-	grid-area: corp;
+  grid-area: corp;
 }
 
 .separated > :nth-child(19) a,
 .separated > :nth-child(20) a,
 .separated > :nth-child(27) a,
 .separated > :nth-child(29) a {
-	display: none;
+  display: none;
 }
 
 .separated > :nth-child(19):after,
 .separated > :nth-child(20):after,
 .separated > :nth-child(27):after,
 .separated > :nth-child(29):after {
-	font-family: 'Noto Serif';
-	font-size: 0.6875rem;
-	line-height: 24px;
-	font-weight: 300;
-	padding: 0 !important;
+  font-family: "Noto Serif";
+  font-size: 0.6875rem;
+  line-height: 24px;
+  font-weight: 300;
+  padding: 0 !important;
 }
 
 .separated > :nth-child(19):after {
-	content: 'eLife is a non-profit organisation inspired by research funders and led by scientists. Our mission is to help scientists accelerate discovery by operating a platform for research communication that encourages and recognises the most responsible behaviours in science.' !important;
+  content: "eLife is a non-profit organisation inspired by research funders and led by scientists. Our mission is to help scientists accelerate discovery by operating a platform for research communication that encourages and recognises the most responsible behaviours in science." !important;
 }
 
 .separated > :nth-child(20):after {
-	content: 'eLife Sciences Publications, Ltd is a limited liability non-profit non-stock corporation incorporated in the State of Delaware, USA, with company number 5030732, and is registered in the UK with company number FC030576 and branch number BR015634 at the address:' !important;
+  content: "eLife Sciences Publications, Ltd is a limited liability non-profit non-stock corporation incorporated in the State of Delaware, USA, with company number 5030732, and is registered in the UK with company number FC030576 and branch number BR015634 at the address:" !important;
 }
 
 .separated > :nth-child(27):after {
-	content: 'eLife Sciences Publications, Ltd \A Westbrook Centre, Milton Road \A Cambridge CB4 1YG \A UK' !important;
-	white-space: pre-wrap;
+  content: "eLife Sciences Publications, Ltd \A Westbrook Centre, Milton Road \A Cambridge CB4 1YG \A UK" !important;
+  white-space: pre-wrap;
 }
 
 .separated > :nth-child(29):after {
-	content: '© 2022 eLife Sciences Publications Ltd. Subject to a Creative Commons Attribution license, except where otherwise noted. ISSN: 2050-084X' !important;
+  content: "© 2022 eLife Sciences Publications Ltd. Subject to a Creative Commons Attribution license, except where otherwise noted. ISSN: 2050-084X" !important;
 }
 
 .separated > :nth-child(21),
@@ -573,8 +583,8 @@ h1#elife-evolution-of-publishing ~ p {
 .separated > :nth-child(23),
 .separated > :nth-child(24),
 .separated > :nth-child(25) {
-	margin-top: calc((50 / 16) * 1rem);
-	grid-area: social;
+  margin-top: calc((50 / 16) * 1rem);
+  grid-area: social;
 }
 
 .separated > :nth-child(21) a,
@@ -582,179 +592,182 @@ h1#elife-evolution-of-publishing ~ p {
 .separated > :nth-child(23) a,
 .separated > :nth-child(24) a,
 .separated > :nth-child(25) a {
-	position: absolute;
+  position: absolute;
 }
 
 .separated > :nth-child(21) a {
-	left: 164px;
-	z-index: 100;
+  left: 164px;
+  z-index: 100;
 }
 
 .separated > :nth-child(26) {
-	text-align: left;
-	padding-left: calc((164 / 16) * 1rem);
-	grid-area: github;
+  text-align: left;
+  padding-left: calc((164 / 16) * 1rem);
+  grid-area: github;
 }
 
 .separated > :nth-child(27) {
-	grid-area: address;
+  grid-area: address;
 }
 
 .separated > :nth-child(28) {
-	grid-area: certifications;
-	padding-top: calc((60 / 16) * 1rem);
+  grid-area: certifications;
+  padding-top: calc((60 / 16) * 1rem);
 }
 
 .separated > :nth-child(28) a {
-	background-image: url('https://elifesciences.org/assets/patterns/img/patterns/molecules/carbon-neutral.706efe6d.svg');
-	background-size: 247px auto;
-	background-position: 164px center;
-	text-align: left;
-	height: 50px;
+  background-image: url("https://elifesciences.org/assets/patterns/img/patterns/molecules/carbon-neutral.706efe6d.svg");
+  background-size: 247px auto;
+  background-position: 164px center;
+  text-align: left;
+  height: 50px;
 }
 
 .separated > :nth-child(29) {
-	grid-area: copyright;
+  grid-area: copyright;
 }
 
 .separated > :nth-child(30),
 .separated > :nth-child(31) {
-	display: none;
+  display: none;
 }
 
 /* About Page */
 
 /* This selector is extremely brittle. As long a no-one changes the order of the page header and the About menu, it
  will hopefully stand up, but no guarantees. */
-#main-content > .layout-component:first-child > .layout-html-component:nth-child(2) .container {
-	width: 98%;
-	max-width: calc(( 1200 / 16) * 1rem);
-	padding-left: 0;
-	padding-right: 0;
+#main-content
+  > .layout-component:first-child
+  > .layout-html-component:nth-child(2)
+  .container {
+  width: 98%;
+  max-width: calc((1200 / 16) * 1rem);
+  padding-left: 0;
+  padding-right: 0;
 }
 
 ol.section-listing {
-	display: flex;
-	justify-content: center;
-	column-gap: 36px;
-	font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
-	font-size: 1rem;
-	margin-left: -25%;
-	border-top: 1px #e0e0e0 solid;
-	border-bottom: 1px #e0e0e0 solid;
-	padding-top: calc((11 / 16) * 1rem);
-	padding-bottom: calc((12 / 16) * 1rem);
-	padding-left: calc((24 / 16) * 1rem);
-	padding-right: calc((24 / 16) * 1rem);
+  display: flex;
+  justify-content: center;
+  column-gap: 36px;
+  font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  margin-left: -25%;
+  border-top: 1px #e0e0e0 solid;
+  border-bottom: 1px #e0e0e0 solid;
+  padding-top: calc((11 / 16) * 1rem);
+  padding-bottom: calc((12 / 16) * 1rem);
+  padding-left: calc((24 / 16) * 1rem);
+  padding-right: calc((24 / 16) * 1rem);
 }
 
 ol.section-listing li {
-	list-style-type: none;
-	margin-left: calc((12 / 16) * 1rem);
-	margin-right: calc((12 / 16) * 1rem);
+  list-style-type: none;
+  margin-left: calc((12 / 16) * 1rem);
+  margin-right: calc((12 / 16) * 1rem);
 }
 
 .layout-component .layout-html-component ol.section-listing li a {
-	text-decoration: none;
-	border-bottom-width: 0;
-	padding-bottom: 0;
+  text-decoration: none;
+  border-bottom-width: 0;
+  padding-bottom: 0;
 }
 
 ol.section-listing li a:hover {
-	color: #087acc;
+  color: #087acc;
 }
 
 ol.section-listing li.section-listing__list_item--current a {
-	color: #087acc;
+  color: #087acc;
 }
 
 /* Paul experimenting */
 .two-column-parent {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: 1fr;
-	grid-column-gap: 36px;
-	grid-row-gap: 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 36px;
+  grid-row-gap: 0px;
 }
 
 .two-column-parent div {
-	width: 45%;
+  width: 45%;
 }
 
 .two-column-first {
-	grid-area: 1 / 1 / 2 / 3;
+  grid-area: 1 / 1 / 2 / 3;
 }
 .two-column-second {
-	grid-area: 1 / 2 / 2 / 3;
+  grid-area: 1 / 2 / 2 / 3;
 }
 .two-column-third {
-	grid-area: 1 / 1 / 2 / 2;
+  grid-area: 1 / 1 / 2 / 2;
 }
 
 /* About page card styles - test */
 .grid {
-	/*border: 1px blue solid;*/
-	display: grid;
-	/* grid-template-columns: 1fr 1fr; */
-	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 1fr 1fr;
-	grid-column-gap: 48px;
-	grid-row-gap: 48px;
-	padding: 0 calc((24 / 16) * 1rem);
-	/* max-width:1200px; */
-	margin-top: calc((48 / 16) * 1rem);
-	margin: calc((48 / 16) * 1rem) auto 0 auto;
+  /*border: 1px blue solid;*/
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 48px;
+  grid-row-gap: 48px;
+  padding: 0 calc((24 / 16) * 1rem);
+  /* max-width:1200px; */
+  margin-top: calc((48 / 16) * 1rem);
+  margin: calc((48 / 16) * 1rem) auto 0 auto;
 }
 
 .card {
-	/*border: 1px orange solid;*/
-	grid-column: span 6;
-	display: grid;
-	grid-template-columns: auto auto;
-	grid-column-gap: 24px;
-	padding: calc((12 / 16) * 1rem);
+  /*border: 1px orange solid;*/
+  grid-column: span 6;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 24px;
+  padding: calc((12 / 16) * 1rem);
 }
 
 .card.right .card_text {
-	/*border: solid 1px red;*/
-	grid-column: 2 / 2;
-	grid-row: 1 / 1;
+  /*border: solid 1px red;*/
+  grid-column: 2 / 2;
+  grid-row: 1 / 1;
 }
 
 .card.right .img_placeholder {
-	grid-column: 1 / 1;
-	grid-row: 1 / 1;
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
 }
 
 .img_placeholder {
-	width: 200px;
-	height: 200px;
-	background: #e0e0e0;
-	justify-self: end;
+  width: 200px;
+  height: 200px;
+  background: #e0e0e0;
+  justify-self: end;
 }
 
 .block-content .card h3 {
-	line-height: 2rem;
+  line-height: 2rem;
 }
 
 @media only screen and (max-width: 1200px) {
-	.grid {
-		grid-template-columns: 1fr;
-		border: 1px solid green;
-		max-width: 800px;
-	}
-	/* Undo the flipped positioning for "right" classes below 1200px */
-	.card.right .card_text {
-		grid-column: 1 / 1;
-		grid-row: 1 / 1;
-	}
+  .grid {
+    grid-template-columns: 1fr;
+    border: 1px solid green;
+    max-width: 800px;
+  }
+  /* Undo the flipped positioning for "right" classes below 1200px */
+  .card.right .card_text {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+  }
 
-	.card.right .img_placeholder {
-		grid-column: 2 / 2;
-		grid-row: 1 / 1;
-	}
-	.nav-bar-component ul.nav-list > :nth-child(7) a .title,
-	.nav-bar-component ul.nav-list > :nth-child(8) a .title {
-		display: none;
-	}
+  .card.right .img_placeholder {
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+  }
+  .nav-bar-component ul.nav-list > :nth-child(7) a .title,
+  .nav-bar-component ul.nav-list > :nth-child(8) a .title {
+    display: none;
+  }
 }
