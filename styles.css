@@ -796,7 +796,12 @@ ol.section-listing li.section-listing__list_item--current a {
   padding-left: 3rem;
   padding-right: 3rem;
   background-color: #fff;
-  margin-top: calc((54 / 16) * 1rem);
+  padding-top: calc((54 / 16) * 1rem);
+}
+
+.elife-nav-logo a {
+  height: auto;
+  margin-bottom: 1.5rem;
 }
 
 .elife-nav-menu li {
@@ -814,4 +819,5 @@ ol.section-listing li.section-listing__list_item--current a {
 
 .elife-nav-menu ul.elife-nav-items > :nth-child(2) {
   border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 1.5rem;
 }
