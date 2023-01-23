@@ -110,8 +110,7 @@ h1,
 }
 
 h2,
-.layout-component .block-content h2,
-.separated > :first-child:before {
+.layout-component .block-content h2 {
   font-size: calc((26 / 16) * 1rem);
 }
 
@@ -408,6 +407,9 @@ h1#elife-evolution-of-publishing ~ p {
 }
 
 .separated > :first-child:before {
+  font-size: 1.25rem;
+  line-height: 1.2;
+  padding-bottom: 1.5rem;
   content: "Be the first to read new articles from eLife";
   display: block;
 }
