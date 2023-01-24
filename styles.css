@@ -9,7 +9,7 @@ body {
 }
 
 .block-content {
-    margin: 0;
+    margin: 0 !important;
 }
 
 a:hover,
