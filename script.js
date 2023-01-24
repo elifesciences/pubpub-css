@@ -7,13 +7,19 @@ const overlayDiv = document.createElement("div");
 overlayDiv.setAttribute("class", "elife-nav-overlay");
 
 // clone logo and add to div
-const logo = document
+const elifeLogo = document
   .querySelector(".nav-list > :first-child a")
   .cloneNode(true);
 
-logo.setAttribute("class", "elife-nav-logo");
+elifeLogo.setAttribute("class", "elife-nav-logo");
 
-menuDiv.appendChild(logo);
+menuDiv.appendChild(elifeLogo);
+
+const closeButton = document.createElement("button");
+closeButton.textContent = "Close";
+closeButton.setAttribute("class", "elife-nav-close-button");
+
+menuDiv.appendChild(closeButton);
 
 // create nav items ul
 const navItems = document.createElement("ul");
@@ -58,7 +64,11 @@ function toggleMenu(e) {
   e.preventDefault();
 }
 
+// toggle event listeners
 document
   .querySelector(".nav-bar-component ul.nav-list > :nth-child(2) a")
   .addEventListener("click", toggleMenu);
 overlayDiv.addEventListener("click", toggleMenu);
+document
+  .querySelector(".elife-nav-close-button")
+  .addEventListener("click", toggleMenu);
