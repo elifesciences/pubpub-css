@@ -65,9 +65,18 @@ function toggleMenu(e) {
   e.preventDefault();
 }
 
+function sizeMenuToPage() {
+  if(window.matchMedia("max-width: 899px").matches) {
+    const homeLink = document.querySelector(".nav-bar-component ul.nav-list > :nth-child(3)");
+    navItems.prepend(homeLink);
+  }
+}
+
 // toggle event listeners
 document
   .querySelector(".nav-bar-component ul.nav-list > :nth-child(2) a")
   .addEventListener("click", toggleMenu);
 overlayDiv.addEventListener("click", toggleMenu);
 closeButton.addEventListener("click", toggleMenu);
+
+sizeMenuToPage();
