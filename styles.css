@@ -822,3 +822,12 @@ ol.section-listing li.section-listing__list_item--current a {
   border-bottom: 1px solid #e0e0e0;
   margin-bottom: 1.5rem;
 }
+
+.elife-nav-overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: 30;
+  background-color: rgba(0, 0, 0, 0.8);
+}

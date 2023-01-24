@@ -2,6 +2,10 @@
 const menuDiv = document.createElement("div");
 menuDiv.setAttribute("class", "elife-nav-menu nav-bar-component");
 
+// create overlay div
+const overlayDiv = document.createElement("div");
+overlayDiv.setAttribute("class", "elife-nav-overlay");
+
 // clone logo and add to div
 const logo = document
   .querySelector(".nav-list > :first-child a")
@@ -40,3 +44,4 @@ menuDiv.append(navItems);
 // prepend menu div to body
 const body = document.querySelector("body");
 body.prepend(menuDiv);
+body.appendChild(overlayDiv);
