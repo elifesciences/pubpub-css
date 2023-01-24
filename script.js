@@ -15,6 +15,7 @@ elifeLogo.setAttribute("class", "elife-nav-logo");
 
 menuDiv.appendChild(elifeLogo);
 
+// create close button
 const closeButton = document.createElement("button");
 closeButton.textContent = "Close";
 closeButton.setAttribute("class", "elife-nav-close-button");
@@ -69,6 +70,4 @@ document
   .querySelector(".nav-bar-component ul.nav-list > :nth-child(2) a")
   .addEventListener("click", toggleMenu);
 overlayDiv.addEventListener("click", toggleMenu);
-document
-  .querySelector(".elife-nav-close-button")
-  .addEventListener("click", toggleMenu);
+closeButton.addEventListener("click", toggleMenu);

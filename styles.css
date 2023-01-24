@@ -139,8 +139,7 @@ header.header-component {
 }
 
 .nav-bar-component,
-.footer-component,
-.elife-nav-close-button {
+.footer-component {
   font-family: "Noto Sans", Arial, Helvetica, sans-serif;
   font-size: 0.875rem;
   text-transform: none;
@@ -835,4 +834,10 @@ ol.section-listing li.section-listing__list_item--current a {
   top: 0;
   z-index: 30;
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.elife-nav-close-button {
+  border: 0;
+  background-color: 0;
+  font-family: "Noto Sans", Arial, sans-serif;
 }
