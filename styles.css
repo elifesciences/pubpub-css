@@ -222,12 +222,13 @@ header.header-component {
 }
 .nav-bar-component ul.nav-list > :nth-child(2) a:after {
   background-image: url("https://ui-patterns.elifesciences.org/assets/img/patterns/molecules/nav-primary-menu-ic.svg");
+  background-repeat: no-repeat;
+  background-position: right;
   background-size: 24px;
   display: inline-block;
-  width: 24px;
-  height: 24px;
+  width: calc((70 / 16) * 1rem);
+  height: calc((24 / 16) * 1rem);
   content: "Menu";
-  padding-left: 30px;
 }
 
 @media screen and (min-width: 56.25em) {
