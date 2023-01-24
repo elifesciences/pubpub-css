@@ -142,6 +142,10 @@ h6,
   font-size: 1rem;
 }
 
+.hidden {
+  display: none;
+}
+
 header.header-component {
   display: none;
 }
