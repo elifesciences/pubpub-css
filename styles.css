@@ -12,6 +12,10 @@ body {
     margin: 0 !important;
 }
 
+.col-12 {
+  margin: 0 2%;
+}
+
 a:hover,
 li:hover,
 .nav-bar-component li:hover,
