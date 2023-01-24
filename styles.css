@@ -8,6 +8,10 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+.block-content {
+    margin: 0;
+}
+
 a:hover,
 li:hover,
 .nav-bar-component li:hover,
