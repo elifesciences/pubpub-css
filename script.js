@@ -76,7 +76,10 @@ function sizeMenuToPage() {
       document.querySelector(".nav-list > li:nth-child(3)"),
       document.querySelector(".nav-list > li:nth-child(4)"),
       document.querySelector(".nav-list > li:nth-child(5)"),
-      document.querySelector(".nav-list > li:nth-child(6)")
+      document.querySelector(".nav-list > li:nth-child(6)"),
+      document.querySelector(".nav-list > li:nth-child(7)"),
+      document.querySelector(".nav-list > li:nth-child(8)"),
+      document.querySelector(".nav-list > li:nth-child(9)")
     ];
     navElementsToHide.forEach((navElement) => {
       navElement?.classList.add('hidden');
