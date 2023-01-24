@@ -839,6 +839,15 @@ ol.section-listing li.section-listing__list_item--current a {
 
 .elife-nav-close-button {
   border: 0;
-  background-color: 0;
+  width: 4.25rem;
   font-family: "Noto Sans", Arial, sans-serif;
+  float: right;
+  background: url("https://ui-patterns.elifesciences.org/assets/img/icons/close.svg")
+    no-repeat 49px 3px;
+  background-size: 14px;
+  background-position: right;
+}
+
+.elife-nav-close-button:hover {
+  cursor: pointer;
 }
