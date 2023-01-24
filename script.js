@@ -66,7 +66,9 @@ function toggleMenu(e) {
 }
 
 function sizeMenuToPage() {
+  console.log('>>>>> Inside sizeMenuToPage');
   if(window.matchMedia("(max-width: 899px)").matches) {
+    console.log('>>>>> sizeMenuToPage: max-width: 899px matches!');
     const homeLink = document.querySelector(".nav-bar-component ul.nav-list > :nth-child(3)");
     navItems.prepend(homeLink);
   }
