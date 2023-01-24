@@ -228,6 +228,13 @@ header.header-component {
   height: 24px;
   content: "Menu";
 }
+
+@media screen and (min-width: 56.25em) {
+  .nav-bar-component ul.nav-list > :nth-child(2) a:after {
+    content: "";
+  }
+}
+
 .nav-bar-component ul.nav-list > :nth-child(2) li {
   display: none;
 }
