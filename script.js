@@ -80,3 +80,4 @@ overlayDiv.addEventListener("click", toggleMenu);
 closeButton.addEventListener("click", toggleMenu);
 
 window.addEventListener('load', sizeMenuToPage);
+window.addEventListener('resize', sizeMenuToPage);
