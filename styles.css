@@ -689,6 +689,10 @@ ol.section-listing li {
   margin-right: calc((12 / 16) * 1rem);
 }
 
+.layout-component .layout-html-component ol.section-listing {
+  margin-bottom: calc((48 / 16) * 1rem);
+}
+
 .layout-component .layout-html-component ol.section-listing li a {
   text-decoration: none;
   border-bottom-width: 0;
