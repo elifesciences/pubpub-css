@@ -79,7 +79,7 @@ function sizeMenuToPage() {
       document.querySelector(".nav-list:nth-child(6)")
     ];
     navElementsToHide.forEach((navElement) => {
-      navElement.classList.add('hidden');
+      navElement?.classList.add('hidden');
     });
   }
 }
