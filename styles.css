@@ -139,7 +139,8 @@ header.header-component {
 }
 
 .nav-bar-component,
-.footer-component {
+.footer-component,
+.elife-nav-close-button {
   font-family: "Noto Sans", Arial, Helvetica, sans-serif;
   font-size: 0.875rem;
   text-transform: none;
