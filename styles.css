@@ -227,6 +227,7 @@ header.header-component {
   width: 24px;
   height: 24px;
   content: "Menu";
+  padding-left: 30px;
 }
 
 @media screen and (min-width: 56.25em) {
