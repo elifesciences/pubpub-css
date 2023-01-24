@@ -787,7 +787,7 @@ ol.section-listing li.section-listing__list_item--current a {
 }
 
 .elife-nav-menu {
-  display: block;
+  display: none;
   position: fixed;
   height: 100vh;
   z-index: 40;
@@ -828,6 +828,7 @@ ol.section-listing li.section-listing__list_item--current a {
 }
 
 .elife-nav-overlay {
+  display: none;
   width: 100vw;
   height: 100vh;
   position: fixed;
