@@ -72,11 +72,11 @@ function sizeMenuToPage() {
 
     // hide all but the "Menu" and burger
     const navElementsToHide = [
-      '.nav-list:nth-child(1)',
-      '.nav-list:nth-child(3)',
-      '.nav-list:nth-child(4)',
-      '.nav-list:nth-child(5)',
-      '.nav-list:nth-child(6)',
+      document.querySelector(".nav-list:nth-child(1)"),
+      document.querySelector(".nav-list:nth-child(3)"),
+      document.querySelector(".nav-list:nth-child(4)"),
+      document.querySelector(".nav-list:nth-child(5)"),
+      document.querySelector(".nav-list:nth-child(6)")
     ];
     navElementsToHide.forEach((navElement) => {
       navElement.classList.add('hidden');
