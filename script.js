@@ -45,3 +45,20 @@ menuDiv.append(navItems);
 const body = document.querySelector("body");
 body.prepend(menuDiv);
 body.appendChild(overlayDiv);
+
+// toggle function
+function toggleMenu(e) {
+  if (menuDiv.style.display === "block") {
+    menuDiv.style.display = "none";
+    overlayDiv.style.display = "none";
+  } else {
+    menuDiv.style.display = "block";
+    overlayDiv.style.display = "block";
+  }
+  e.preventDefault();
+}
+
+document
+  .querySelector(".nav-bar-component ul.nav-list > :nth-child(2) a")
+  .addEventListener("click", toggleMenu);
+overlayDiv.addEventListener("click", toggleMenu);
