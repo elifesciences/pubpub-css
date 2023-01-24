@@ -67,8 +67,8 @@ function toggleMenu(e) {
 
 function sizeMenuToPage() {
   if(window.matchMedia("(max-width: 899px)").matches) {
-    const homeLink = document.querySelector(".nav-bar-component ul.nav-list > :nth-child(3)");
-    navItems.prepend(homeLink);
+    // const homeLink = document.querySelector(".nav-bar-component ul.nav-list > :nth-child(3)");
+    // navItems.prepend(homeLink);
 
     // hide all but the "Menu" and burger
     const navElementsToHide = [
