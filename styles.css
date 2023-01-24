@@ -399,6 +399,10 @@ h1#elife-evolution-of-publishing ~ p {
     25% 25% 25% 25%;
 }
 
+.separated li {
+  z-index: 20;
+}
+
 .separated > :first-child {
   margin: calc((30 / 16) * 1rem) 0;
   grid-area: subscribe;
