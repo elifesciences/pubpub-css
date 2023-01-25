@@ -849,6 +849,16 @@ ol.section-listing li.section-listing__list_item--current a {
 .link-grid .card {
   padding: calc((12 / 16) * 1rem);
 }
+
+.link-grid .card ul {
+  padding-left: 0;
+}
+
+.link-grid .card li {
+  list-style: none;
+  margin-bottom: calc((48 / 16) * 1rem);
+}
+
 .layout-component .layout-html-component .link-grid li a {
   color: #212121;
   text-decoration: none;
