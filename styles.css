@@ -850,6 +850,15 @@ ol.section-listing li.section-listing__list_item--current a {
   padding: calc((12 / 16) * 1rem);
 }
 
+.link-grid .card h4 a {
+  color: #212121;
+  text-decoration: none;
+}
+
+.link-grid .card h4 a:hover {
+  color: #087acc;
+}
+
 @media only screen and (max-width: 1200px) {
   .about-grid {
     grid-template-columns: 1fr;
