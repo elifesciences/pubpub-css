@@ -837,18 +837,18 @@ ol.section-listing li.section-listing__list_item--current a {
 }
 
 @media only screen and (max-width: 1200px) {
-  .grid {
+  .about-grid {
     grid-template-columns: 1fr;
     border: 1px solid green;
     max-width: 800px;
   }
   /* Undo the flipped positioning for "right" classes below 1200px */
-  .card.right .card_text {
+  .about-grid .card.right .card_text {
     grid-column: 1 / 1;
     grid-row: 1 / 1;
   }
 
-  .card.right .img_placeholder {
+  .about-grid .card.right .img_placeholder {
     grid-column: 2 / 2;
     grid-row: 1 / 1;
   }
