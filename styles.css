@@ -142,7 +142,7 @@ h6,
   font-size: 1rem;
 }
 
-.h1-variant {
+.layout-component .block-content h1.h1-variant {
   font-size: calc((26 / 16) * 1rem);
   margin-bottom: 1.5rem;
 }
@@ -154,6 +154,7 @@ h6,
 .button {
   display: inline-block;
   margin-top: calc((24 / 16) * 1rem);
+  margin-right: calc((24 / 16) * 1rem);
   padding: calc((11 / 16) * 1rem) calc((24 / 16) * 1rem) calc((13 / 16) * 1rem);
   background-color: #087acc;
   border-radius: 4px;
