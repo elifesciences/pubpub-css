@@ -678,6 +678,7 @@ h1#elife-evolution-of-publishing ~ p {
   width: 1.75rem;
   position: absolute;
   z-index: 20;
+  color: transparent;
 }
 
 .separated > :nth-child(21) a:hover,
