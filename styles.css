@@ -849,13 +849,12 @@ ol.section-listing li.section-listing__list_item--current a {
 .link-grid .card {
   padding: calc((12 / 16) * 1rem);
 }
-
-.link-grid .card li a {
+.layout-component .layout-html-component .link-grid li a {
   color: #212121;
   text-decoration: none;
 }
 
-.link-grid .card li a:hover {
+.layout-component .layout-html-component .link-grid li a:hover {
   color: #087acc;
 }
 
