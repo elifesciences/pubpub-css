@@ -424,7 +424,7 @@ h1#elife-evolution-of-publishing ~ p {
 }
 
 .footer-component .container .row .col-12 {
-  margin: 0;
+  margin: 0 !important;
   width: 100%;
 }
 
