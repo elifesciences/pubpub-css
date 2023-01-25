@@ -850,12 +850,12 @@ ol.section-listing li.section-listing__list_item--current a {
   padding: calc((12 / 16) * 1rem);
 }
 
-.link-grid .card h4 a {
+.link-grid .card li a {
   color: #212121;
   text-decoration: none;
 }
 
-.link-grid .card h4 a:hover {
+.link-grid .card li a:hover {
   color: #087acc;
 }
 
