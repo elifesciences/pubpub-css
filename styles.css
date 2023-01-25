@@ -155,17 +155,27 @@ h6,
   display: inline-block;
   margin-top: calc((24 / 16) * 1rem);
   margin-right: calc((24 / 16) * 1rem);
+  margin-bottom: calc((24 / 16) * 1rem);
   padding: calc((11 / 16) * 1rem) calc((24 / 16) * 1rem) calc((13 / 16) * 1rem);
   background-color: #087acc;
   border-radius: 4px;
   color: #ffffff !important; font-family: "Noto Sans", Arial, Helvetica, sans-serif;
   font-size: 1rem;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #0769b0;
 }
 
 .button-action {display: inline-block; margin-top: calc((24 / 16) * 1rem); padding: calc((11 / 16) * 1rem) calc((24 / 16) * 1rem) calc((13 / 16) * 1rem);
   background-color: #edeff4;
   border-radius: 4px;
   color: #212121 !important;
+}
+
+.button-action:hover {
+  background-color: #d7d9de;
 }
 
 header.header-component {
