@@ -106,6 +106,7 @@ h6 {
 h1,
 .layout-component .block-content h1 {
   font-size: calc((36 / 16) * 1rem);
+  font-weight: 600;
 }
 
 @media screen and (min-width: 45.625em) {
@@ -449,7 +450,8 @@ h1#elife-evolution-of-publishing strong {
   }
 }
 
-h1#elife-evolution-of-publishing ~ p {
+h1#elife-evolution-of-publishing ~ p,
+h1#innovation-and-technology ~ p {
   font-family: "Noto Sans", Arial, Helvetica, sans-serif;
   line-height: 1.5;
   font-weight: 500;
