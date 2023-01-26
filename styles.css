@@ -829,6 +829,7 @@ h1#elife-evolution-of-publishing ~ p {
   .separated > :nth-child(26) {
     text-align: center;
     margin-left: 0;
+    margin-top: 2rem;
   }
 
   .separated > :nth-child(28) a {
