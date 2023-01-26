@@ -195,6 +195,10 @@ h6,
   margin: 0 24px;
 }
 
+.container {
+  width: 100%;
+}
+
 @media only screen and (min-width: 480px) {
   #main-content {
     margin: 0 48px;
@@ -954,7 +958,7 @@ ol.section-listing li.section-listing__list_item--current a {
   grid-template-rows: 1fr 1fr;
   grid-column-gap: 48px;
   grid-row-gap: 48px;
-  padding: 0 calc((24 / 16) * 1rem);
+
   /* max-width:1200px; */
   margin: calc((48 / 16) * 1rem) auto;
 }
