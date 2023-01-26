@@ -33,15 +33,6 @@ p a,
   text-decoration: none;
 }
 
-p a:hover,
-.layout-component .layout-text-component p a:hover,
-.layout-component .layout-text-component li a:hover,
-.layout-component .layout-html-component p a:hover,
-.layout-component .layout-html-component li a:hover {
-  border-bottom-color: #087acc;
-  color: #087acc;
-}
-
 p a:visited,
 .layout-component .layout-text-component p a:visited,
 .layout-component .layout-text-component li a:visited,
@@ -49,6 +40,15 @@ p a:visited,
 .layout-component .layout-html-component li a:visited {
   border-bottom-color: #212121;
   color: #212121;
+}
+
+p a:hover,
+.layout-component .layout-text-component p a:hover,
+.layout-component .layout-text-component li a:hover,
+.layout-component .layout-html-component p a:hover,
+.layout-component .layout-html-component li a:hover {
+  border-bottom-color: #087acc;
+  color: #087acc;
 }
 
 p,
