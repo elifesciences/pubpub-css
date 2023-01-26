@@ -222,7 +222,7 @@ h6,
 }
 
 .layout-html-component li a.breadcrumb-item a {
-  border-bottom: 0;
+  border-bottom: 0 !important;
   color: #212121;
   text-decoration: none;
 }
@@ -235,11 +235,11 @@ h6,
   color: #212121;
 }
 
-.layout-html-component li a.breadcrumb-item:after {
+.breadcrumb-item:after {
   content: " | ";
 }
 
-.layout-html-component li a.breadcrumb-item:last-child:after {
+.breadcrumb-item:last-child:after {
   content: "";
 }
 
