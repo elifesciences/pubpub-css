@@ -835,6 +835,17 @@ h1#elife-evolution-of-publishing ~ p {
   .separated > :nth-child(28) a {
     background-position: center center;
   }
+
+  .separated > :nth-child(21) a,
+  .separated > :nth-child(22) a,
+  .separated > :nth-child(23) a,
+  .separated > :nth-child(24) a,
+  .separated > :nth-child(25) a {
+    left: auto;
+    position: relative;
+    height: 28px;
+    width: 28px;
+  }
 }
 /* About Page */
 
