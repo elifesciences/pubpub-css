@@ -221,25 +221,25 @@ h6,
   font-size: 0.875rem;
 }
 
-.breadcrumb-item a {
+.layout-html-component li a.breadcrumb-item a {
   border-bottom: 0;
   color: #212121;
   text-decoration: none;
 }
 
-.breadcrumb-item a:hover {
+.layout-html-component li a.breadcrumb-item a:hover {
   color: #087acc;
 }
 
-.breadcrumb-item a:visited {
+.layout-html-component li a.breadcrumb-item a:visited {
   color: #212121;
 }
 
-.breadcrumb-item:after {
+.layout-html-component li a.breadcrumb-item:after {
   content: " | ";
 }
 
-.breadcrumb-item:last-child:after {
+.layout-html-component li a.breadcrumb-item:last-child:after {
   content: "";
 }
 
