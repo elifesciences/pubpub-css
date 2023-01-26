@@ -1136,3 +1136,7 @@ ol.section-listing li.section-listing__list_item--current a {
 .elife-nav-close-button:hover {
   cursor: pointer;
 }
+
+.built-on {
+  display: none;
+}
