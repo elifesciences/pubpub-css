@@ -226,6 +226,14 @@ header.header-component {
   padding-right: calc((24 / 16) * 1rem);
 }
 
+@media only screen and (min-width: 480px) {
+  .nav-bar-component {
+    padding-left: calc((48 / 16) * 1rem);
+    padding-right: calc((48 / 16) * 1rem);
+  }
+
+}
+
 .nav-bar-component.accent-color {
   border-bottom: 0 !important;
 }
@@ -275,7 +283,6 @@ header.header-component {
 }
 .nav-bar-component ul.nav-list > :first-child {
   padding-top: 0;
-  padding-left: calc((21 / 16) * 1rem);
   border-right: 1px #e0e0e0 solid;
 }
 
@@ -372,6 +379,7 @@ header.header-component {
 }
 .nav-bar-component ul.nav-list > :first-child a {
   display: flex;
+  margin-left: 0;
 }
 .nav-bar-component ul.nav-list > :first-child a:before,
 .elife-nav-menu > :first-child:before {
