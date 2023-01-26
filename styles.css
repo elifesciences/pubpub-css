@@ -215,18 +215,24 @@ h6,
 }
 
 .layout-component .layout-html-component li.breadcrumb-item {
+  color: #757575;
   display: inline-block;
   font-family: "Noto Sans", Arial, Helvetica, sans-serif;
   font-size: 0.875rem;
 }
 
 .breadcrumb-item a {
+  border-bottom: 0;
   color: #212121;
   text-decoration: none;
 }
 
 .breadcrumb-item a:hover {
   color: #087acc;
+}
+
+.breadcrumb-item a:visited {
+  color: #212121;
 }
 
 .breadcrumb-item:after {
