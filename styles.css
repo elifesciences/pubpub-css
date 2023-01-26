@@ -988,10 +988,17 @@ ol.section-listing li.section-listing__list_item--current a {
 @media only screen and (min-width: 480px) {
   .img_placeholder {
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background: #e0e0e0;
     justify-self: end;
+  }
+}
+
+@media only screen and (min-width: 730px) {
+  .img_placeholder {
+    width: 200px;
+    height: 200px;
   }
 }
 
