@@ -842,6 +842,7 @@ h1#elife-evolution-of-publishing ~ p {
   .separated > :nth-child(24),
   .separated > :nth-child(25) {
     justify-self: center;
+    width: 100vw;
   }
 
   .separated > :nth-child(21) a,
@@ -849,9 +850,8 @@ h1#elife-evolution-of-publishing ~ p {
   .separated > :nth-child(23) a,
   .separated > :nth-child(24) a,
   .separated > :nth-child(25) a {
-    left: auto;
-    height: 28px;
-    width: 28px;
+    height: 1.75rem;
+    width: 1.75rem;
   }
 }
 /* About Page */
