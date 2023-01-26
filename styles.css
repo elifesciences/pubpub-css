@@ -436,25 +436,25 @@ header.header-component {
   }
 }
 
-h1#elife-evolution-of-publishing {
+h1#about-elife {
   line-height: 48px;
   text-align: center;
   font-weight: 600;
 }
 
-h1#elife-evolution-of-publishing strong {
+h1#about-elife strong {
   font-weight: 700;
 }
 
 @media screen and (min-width: 56.25em) {
-  h1#elife-evolution-of-publishing {
+  h1#about-elife {
     line-height: 72px;
   }
 }
 
 /** subtitle styling. Needs id from h1 for it to work **/
 
-h1#elife-evolution-of-publishing ~ p,
+h1#about-elife ~ p,
 h1#innovation-and-technology ~ p {
   font-family: "Noto Sans", Arial, Helvetica, sans-serif;
   line-height: 1.5;
