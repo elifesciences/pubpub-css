@@ -1011,7 +1011,7 @@ ol.section-listing li.section-listing__list_item--current a {
 }
 
 .layout-component .layout-html-component .link-grid li a:hover {
-  border-bottom: 1px dotted #212121;
+  border-bottom: 1px dotted #087acc;
   color: #087acc;
 }
 
