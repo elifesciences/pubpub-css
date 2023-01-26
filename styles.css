@@ -982,17 +982,10 @@ ol.section-listing li.section-listing__list_item--current a {
 }
 
 .img_placeholder {
-  display: none;
-}
-
-@media only screen and (min-width: 480px) {
-  .img_placeholder {
-    display: block;
-    width: 200px;
-    height: 200px;
-    background: #e0e0e0;
-    justify-self: end;
-  }
+  width: 200px;
+  height: 200px;
+  background: #e0e0e0;
+  justify-self: end;
 }
 
 .block-content .about-grid .card h3 {
