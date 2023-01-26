@@ -758,6 +758,31 @@ h1#elife-evolution-of-publishing ~ p {
 
 /* Footer Mobile */
 @media only screen and (max-width: 729px) {
+  .separated {
+    grid-template:
+      "subscribe subscribe subscribe subscribe"
+      "privacy privacy privacy privacy"
+      ". . . ."
+      ". . . ."
+      ". . . ."
+      ". . . ."
+      ". . . ."
+      ". . . ."
+      ". . . ."
+      ". . . ."
+      ". . . ."
+      ". . . ."
+      ". . . ."
+      ". . . ."
+      ". . . ."
+      "social social social social"
+      "github github github github"
+      "certifications certifications certifications certifications"
+      "mission mission mission mission"
+      "corp corp corp corp"
+      "address address address address"
+      "copyright copyright copyright copyright" / 25% 25% 25% 28%;
+  }
   .separated > :nth-child(7),
   .separated > :nth-child(8),
   .separated > :nth-child(9),
