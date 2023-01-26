@@ -221,18 +221,18 @@ h6,
   font-size: 0.875rem;
 }
 
-.layout-component .layout-html-component li a.breadcrumb-item a {
+.layout-component .layout-html-component li.breadcrumb-item a {
   border-bottom: 0 !important;
   color: #212121;
   text-decoration: none;
 }
 
-.layout-component .layout-html-component li a.breadcrumb-item a:hover {
-  color: #087acc;
+.layout-component .layout-html-component li.breadcrumb-item a:visited {
+  color: #212121;
 }
 
-.layout-component .layout-html-component li a.breadcrumb-item a:visited {
-  color: #212121;
+.layout-component .layout-html-component li.breadcrumb-item a:hover {
+  color: #087acc;
 }
 
 .breadcrumb-item:after {
