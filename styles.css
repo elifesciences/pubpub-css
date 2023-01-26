@@ -189,8 +189,8 @@ h6,
 
 .divider {
   border-top: 1px solid #e0e0e0;
-  margin-bottom: 48px;
-  margin-top: 24px;
+  margin-bottom: calc((48 / 16) * 1rem);
+  margin-top: calc((48 / 16) * 1rem);
 }
 
 #main-content {
@@ -206,6 +206,35 @@ h6,
   #main-content {
     margin: 0 48px;
   }
+}
+
+
+.layout-component .layout-html-component ul.breadcrumb {
+  margin: 0 0 48px;
+  padding: 0;
+}
+
+.breadcrumb-item {
+  display: inline-block;
+  font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+}
+
+.breadcrumb-item a {
+  color: #212121;
+  text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+  color: #087acc;
+}
+
+.breadcrumb-item:after {
+  content: " | ";
+}
+
+.breadcrumb-item:last-child:after {
+  content: "";
 }
 
 header.header-component {
