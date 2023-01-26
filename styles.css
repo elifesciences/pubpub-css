@@ -1091,7 +1091,7 @@ ol.section-listing li.section-listing__list_item--current a {
   color: #087acc;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1199px) {
   .about-grid {
     grid-template-columns: 1fr;
     max-width: 800px;
