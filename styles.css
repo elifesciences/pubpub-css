@@ -191,6 +191,16 @@ h6,
   margin-bottom: 48px 0;
 }
 
+#main-content {
+  margin: 0 24px;
+}
+
+@media only screen and (min-width: 480px) {
+  #main-content {
+    margin: 0 48px;
+  }
+}
+
 header.header-component {
   display: none;
 }
@@ -1018,7 +1028,6 @@ ol.section-listing li.section-listing__list_item--current a {
 @media only screen and (max-width: 1200px) {
   .about-grid {
     grid-template-columns: 1fr;
-    border: 1px solid green;
     max-width: 800px;
   }
   /* Undo the flipped positioning for "right" classes below 1200px */
