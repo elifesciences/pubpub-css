@@ -107,6 +107,7 @@ h1,
 .layout-component .block-content h1 {
   font-size: calc((36 / 16) * 1rem);
   font-weight: 600;
+  margin-top: calc((24 / 16) * 1rem)
 }
 
 @media screen and (min-width: 45.625em) {
@@ -450,12 +451,14 @@ h1#elife-evolution-of-publishing strong {
   }
 }
 
+/** subtitle styling. Needs id from h1 for it to work **/
+
 h1#elife-evolution-of-publishing ~ p,
 h1#innovation-and-technology ~ p {
   font-family: "Noto Sans", Arial, Helvetica, sans-serif;
   line-height: 1.5;
   font-weight: 500;
-  margin-bottom: calc((24 / 16) * 1rem);
+  margin-bottom: calc((48 / 16) * 1rem);
   text-align: center;
 }
 
