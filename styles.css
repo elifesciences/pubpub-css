@@ -12,7 +12,7 @@ body {
 }
 
 .col-12 {
-  margin: 0 2% !important;
+  margin: 0 !important;
 }
 
 a:hover,
@@ -881,7 +881,6 @@ h1#elife-evolution-of-publishing ~ p {
   > .layout-component:first-child
   > .layout-html-component:nth-child(2)
   .container {
-  width: 98%;
   max-width: calc((1200 / 16) * 1rem);
   padding-left: 0;
   padding-right: 0;
@@ -964,12 +963,10 @@ ol.section-listing li.section-listing__list_item--current a {
 }
 
 .about-grid .card {
-  /*border: 1px orange solid;*/
   grid-column: span 6;
   display: grid;
   grid-template-columns: auto auto;
   grid-column-gap: 24px;
-  padding: calc((12 / 16) * 1rem);
 }
 
 .about-grid .card.right .card_text {
