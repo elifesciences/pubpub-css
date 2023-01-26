@@ -251,7 +251,7 @@ header.header-component {
 .nav-bar-component .container {
   padding-left: 0;
   padding-right: 0;
-  width: 98%;
+  width: 100%;
 }
 .nav-bar-component .container .col-12 {
   width: 100%;
