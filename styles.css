@@ -471,40 +471,6 @@ h1#elife-evolution-of-publishing ~ p {
     25% 25% 25% 25%;
 }
 
-@media only screen and (max-width: 729px) {
-  .separated > :nth-child(7),
-  .separated > :nth-child(8),
-  .separated > :nth-child(9),
-  .separated > :nth-child(10),
-  .separated > :nth-child(11),
-  .separated > :nth-child(12),
-  .separated > :nth-child(13),
-  .separated > :nth-child(14),
-  .separated > :nth-child(15),
-  .separated > :nth-child(16),
-  .separated > :nth-child(17),
-  .separated > :nth-child(18) {
-    grid-column: 1 / span 4;
-    justify-self: center;
-  }
-
-  .separated > :nth-child(7) a,
-  .separated > :nth-child(8) a,
-  .separated > :nth-child(9) a,
-  .separated > :nth-child(10) a,
-  .separated > :nth-child(11) a,
-  .separated > :nth-child(12) a,
-  .separated > :nth-child(13) a,
-  .separated > :nth-child(14) a,
-  .separated > :nth-child(15) a,
-  .separated > :nth-child(16) a,
-  .separated > :nth-child(17) a,
-  .separated > :nth-child(18) a {
-    position: relative;
-    left: auto;
-  }
-}
-
 .separated > :first-child {
   margin: calc((30 / 16) * 1rem) 0;
   grid-area: subscribe;
@@ -790,6 +756,40 @@ h1#elife-evolution-of-publishing ~ p {
   display: none;
 }
 
+/* Footer Mobile */
+@media only screen and (max-width: 729px) {
+  .separated > :nth-child(7),
+  .separated > :nth-child(8),
+  .separated > :nth-child(9),
+  .separated > :nth-child(10),
+  .separated > :nth-child(11),
+  .separated > :nth-child(12),
+  .separated > :nth-child(13),
+  .separated > :nth-child(14),
+  .separated > :nth-child(15),
+  .separated > :nth-child(16),
+  .separated > :nth-child(17),
+  .separated > :nth-child(18) {
+    grid-column: 1 / span 4;
+    justify-self: center;
+  }
+
+  .separated > :nth-child(7) a,
+  .separated > :nth-child(8) a,
+  .separated > :nth-child(9) a,
+  .separated > :nth-child(10) a,
+  .separated > :nth-child(11) a,
+  .separated > :nth-child(12) a,
+  .separated > :nth-child(13) a,
+  .separated > :nth-child(14) a,
+  .separated > :nth-child(15) a,
+  .separated > :nth-child(16) a,
+  .separated > :nth-child(17) a,
+  .separated > :nth-child(18) a {
+    position: relative;
+    left: auto;
+  }
+}
 /* About Page */
 
 /* This selector is extremely brittle. As long a no-one changes the order of the page header and the About menu, it
