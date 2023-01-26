@@ -953,7 +953,7 @@ ol.section-listing li.section-listing__list_item--current a {
   margin: calc((48 / 16) * 1rem) auto;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 480px) {
   .about-grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -982,10 +982,17 @@ ol.section-listing li.section-listing__list_item--current a {
 }
 
 .img_placeholder {
-  width: 200px;
-  height: 200px;
-  background: #e0e0e0;
-  justify-self: end;
+  display: none;
+}
+
+@media only screen and (min-width: 480px) {
+  .img_placeholder {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background: #e0e0e0;
+    justify-self: end;
+  }
 }
 
 .block-content .about-grid .card h3 {
