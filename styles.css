@@ -161,9 +161,7 @@ h6,
 
 .button {
   display: inline-block;
-  margin-top: calc((24 / 16) * 1rem);
-  margin-right: calc((24 / 16) * 1rem);
-  margin-bottom: calc((24 / 16) * 1rem);
+  margin: calc((12 / 16) * 1rem) 0 calc((12 / 16) * 1rem);
   padding: calc((11 / 16) * 1rem) calc((24 / 16) * 1rem) calc((13 / 16) * 1rem);
   background-color: #087acc;
   border-radius: 4px;
@@ -179,7 +177,7 @@ h6,
 
 .button-action {
   display: inline-block;
-  margin-top: calc((24 / 16) * 1rem);
+  margin-top: 0;
   padding: calc((11 / 16) * 1rem) calc((24 / 16) * 1rem) calc((13 / 16) * 1rem);
   background-color: #edeff4;
   border-radius: 4px;
@@ -188,6 +186,16 @@ h6,
 
 .button-action:hover {
   background-color: #d7d9de;
+}
+
+@media screen and (min-width: 480px) {
+  .button {
+    margin-right: calc((24 / 16) * 1rem);
+  }
+
+  .button-action {
+    margin-top: calc((24 / 16) * 1rem);
+  }
 }
 
 .divider {
