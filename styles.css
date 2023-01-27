@@ -1044,8 +1044,7 @@ ol.section-listing li.section-listing__list_item--current a {
   }
 
   .img_placeholder img {
-    width: 150px;
-    height: 150px;
+    max-width: 150px;
   }
 }
 
@@ -1055,7 +1054,7 @@ ol.section-listing li.section-listing__list_item--current a {
   }
 
   .img_placeholder img {
-    width: 200px;
+    max-width: 200px;
   }
 }
 
