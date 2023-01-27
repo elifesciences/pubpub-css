@@ -149,6 +149,11 @@ h6,
   font-size: 1rem;
 }
 
+.layout-component .block-content h6.h6-variant {
+  color: #757575;
+  margin-bottom: calc((36 / 16) * 1rem);
+}
+
 .layout-component .block-content h1.h1-variant {
   font-size: calc((26 / 16) * 1rem);
   margin-bottom: calc((24 / 16) * 1rem);
@@ -1094,10 +1099,6 @@ ol.section-listing li.section-listing__list_item--current a {
 
 /* useful link grid */
 
-.link-grid {
-  margin-top: calc((48 / 16) * 1rem);
-}
-
 .link-grid .card ul {
   padding-left: 0;
 }
@@ -1112,7 +1113,7 @@ ol.section-listing li.section-listing__list_item--current a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 48px;
-    margin: calc((48 / 16) * 1rem) auto 0 auto;
+    margin: 0 auto;
   }
 }
 
