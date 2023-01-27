@@ -333,6 +333,7 @@ header.header-component {
 .nav-bar-component ul.nav-list {
   height: 30px;
   align-items: center;
+  overflow-y: unset;
 }
 .nav-bar-component ul.nav-list > :first-child {
   padding-top: 0;
