@@ -72,7 +72,6 @@ function sizeMenuToPage() {
 
     // hide all but the "Menu" and burger
     const navElementsToHide = [
-      document.querySelector(".nav-list > li:nth-child(1)"),
       document.querySelector(".nav-list > li:nth-child(3)"),
       document.querySelector(".nav-list > li:nth-child(4)"),
       document.querySelector(".nav-list > li:nth-child(5)"),
@@ -90,7 +89,6 @@ function sizeMenuToPage() {
 
     // show all
     const navElementsToHide = [
-      document.querySelector(".nav-list > li:nth-child(1)"),
       document.querySelector(".nav-list > li:nth-child(3)"),
       document.querySelector(".nav-list > li:nth-child(4)"),
       document.querySelector(".nav-list > li:nth-child(5)"),
