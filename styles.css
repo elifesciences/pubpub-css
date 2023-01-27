@@ -190,11 +190,11 @@ h6,
 
 @media screen and (min-width: 480px) {
   .button {
-    margin-right: calc((24 / 16) * 1rem);
+    margin: calc((24 / 16) * 1rem) calc((24 / 16) * 1rem) 0 0;
   }
 
   .button-action {
-    margin-top: calc((24 / 16) * 1rem);
+    margin-top: calc((12 / 16) * 1rem);
   }
 }
 
