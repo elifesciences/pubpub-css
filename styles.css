@@ -178,6 +178,7 @@ h6,
 .button-action {
   display: inline-block;
   margin-top: 0;
+  margin-right: 0;
   padding: calc((11 / 16) * 1rem) calc((24 / 16) * 1rem) calc((13 / 16) * 1rem);
   background-color: #edeff4;
   border-radius: 4px;
