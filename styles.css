@@ -1040,15 +1040,22 @@ ol.section-listing li.section-listing__list_item--current a {
     display: block;
     width: 150px;
     height: 150px;
-    background: #e0e0e0;
     justify-self: end;
+  }
+
+  .img_placeholder img {
+    width: 150px;
+    height: 150px;
   }
 }
 
 @media only screen and (min-width: 730px) {
   .img_placeholder {
     width: 200px;
-    height: 200px;
+  }
+
+  .img_placeholder img {
+    width: 200px;
   }
 }
 
