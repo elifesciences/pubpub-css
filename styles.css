@@ -470,7 +470,11 @@ h1#about-elife strong {
 /** subtitle styling. Needs id from h1 for it to work **/
 
 h1#about-elife ~ p,
-h1#innovation-and-technology ~ p {
+h1#innovation-and-technology ~ p,
+h1#our-mission-to-transform-research-communication ~ p,
+h1#research-culture ~ p,
+h1#publishing-and-peer-review-at-elife ~ p,
+h1#aims-and-scope ~ p {
   font-family: "Noto Sans", Arial, Helvetica, sans-serif;
   line-height: 1.5;
   font-weight: 500;
