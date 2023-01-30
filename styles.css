@@ -628,13 +628,14 @@ h1#about-elife ~ p {
   margin-bottom: calc((30 / 16) * 1rem);
 }
 
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 730px) {
   .separated > :nth-child(3),
   .separated > :nth-child(4),
   .separated > :nth-child(5),
   .separated > :nth-child(6) {
     grid-column: span 1;
-    margin-bottom: calc((30 / 16) * 1rem);
+    max-width: 180px;
+    margin: 0 auto calc((30 / 16) * 1rem);
   }
 }
 
