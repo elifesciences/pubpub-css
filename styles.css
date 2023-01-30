@@ -651,6 +651,14 @@ h1#about-elife ~ p {
   background-position: center center;
 }
 
+.separated > :nth-child(3) a,
+.separated > :nth-child(4) a,
+.separated > :nth-child(5) a,
+.separated > :nth-child(6) a {
+  max-width: 183px;
+  margin: 0 auto;
+}
+
 .separated > :nth-child(3) a:hover,
 .separated > :nth-child(4) a:hover,
 .separated > :nth-child(5) a:hover,
