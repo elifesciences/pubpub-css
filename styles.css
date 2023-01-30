@@ -23,6 +23,10 @@ li:hover,
   text-decoration: none !important;
 }
 
+.layout-component {
+  margin-bottom: calc((72 / 16) * 1rem);
+}
+
 p a,
 .layout-component .layout-text-component p a,
 .layout-component .layout-text-component li a,
@@ -103,6 +107,7 @@ h6 {
   margin-bottom: 0;
 }
 
+
 h1,
 .layout-component .block-content h1 {
   font-size: calc((36 / 16) * 1rem);
@@ -132,6 +137,8 @@ h2,
 h3,
 .layout-component .block-content h3 {
   font-size: calc((22 / 16) * 1rem);
+  margin-top: calc((48 / 16) * 1rem);
+  margin-bottom: calc((18 / 16) * 1rem);
 }
 
 h4,
@@ -338,6 +345,7 @@ header.header-component {
 .nav-bar-component ul.nav-list > :first-child {
   padding-top: 0;
   border-right: 1px #e0e0e0 solid;
+  padding-right: calc((6 / 16) * 1rem);
 }
 
 .nav-bar-component ul.nav-list > :nth-child(2) {
@@ -367,6 +375,7 @@ header.header-component {
 @media screen and (min-width: 56.25em) {
   .nav-bar-component ul.nav-list > :nth-child(2) a:after {
     content: "";
+    width: calc((24 / 16) * 1rem);
   }
 }
 
@@ -471,15 +480,17 @@ h1#about-elife strong {
 
 h1#about-elife ~ p,
 h1#innovation-and-technology ~ p,
-h1#our-mission-to-transform-research-communication ~ p,
-h1#research-culture ~ p,
 h1#publishing-and-peer-review-at-elife ~ p,
-h1#aims-and-scope ~ p {
+h1#research-culture ~ p,
+h1#our-mission ~ p,
+h1#aims-and-scope ~ p  {
   font-family: "Noto Sans", Arial, Helvetica, sans-serif;
   line-height: 1.5;
-  font-weight: 500;
-  margin-bottom: calc((48 / 16) * 1rem);
   text-align: center;
+}
+
+h1#about-elife ~ p {
+  margin-bottom: calc((48 / 16) * 1rem);
 }
 
 /** Pub Body Header Hiding **/
@@ -677,6 +688,7 @@ h1#aims-and-scope ~ p {
   line-height: 30px;
   text-align: left;
   font-weight: 400;
+  margin-left: 25%;
 }
 
 .separated > :nth-child(7) a,
@@ -685,8 +697,15 @@ h1#aims-and-scope ~ p {
 .separated > :nth-child(13) a,
 .separated > :nth-child(15) a,
 .separated > :nth-child(17) a {
-  position: absolute;
-  left: 165px;
+}
+
+.separated > :nth-child(7),
+.separated > :nth-child(9),
+.separated > :nth-child(11),
+.separated > :nth-child(13),
+.separated > :nth-child(15),
+.separated > :nth-child(17){
+  grid-column: 1;
 }
 
 .separated > :nth-child(8) a,
@@ -695,17 +714,38 @@ h1#aims-and-scope ~ p {
 .separated > :nth-child(14) a,
 .separated > :nth-child(16) a,
 .separated > :nth-child(18) a {
-  position: absolute;
-  left: 86px;
 }
 
-.separated > :nth-child(19),
-.separated > :nth-child(20),
-.separated > :nth-child(27),
-.separated > :nth-child(29) {
-  text-align: left;
-  padding-right: calc((180 / 16) * 1rem);
+.separated > :nth-child(8),
+.separated > :nth-child(10),
+.separated > :nth-child(12),
+.separated > :nth-child(14),
+.separated > :nth-child(16),
+.separated > :nth-child(18) {
+  grid-column: 2;
 }
+
+@media only screen and (min-width: 730px) {
+  .separated > :nth-child(19),
+  .separated > :nth-child(20),
+  .separated > :nth-child(27),
+  .separated > :nth-child(29) {
+    text-align: left;
+    padding-right: calc((24 / 16) * 1rem);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .separated > :nth-child(19),
+  .separated > :nth-child(20),
+  .separated > :nth-child(27),
+  .separated > :nth-child(29) {
+    text-align: left;
+    padding-right: calc((180 / 16) * 1rem);
+  }
+}
+
+
 
 .separated > :nth-child(19) {
   grid-area: mission;
@@ -1027,7 +1067,7 @@ ol.section-listing li.section-listing__list_item--current a {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 1fr 1fr;
-    grid-column-gap: 48px;
+    grid-column-gap: 72px;
     grid-row-gap: 48px;
   }
 }
@@ -1037,6 +1077,15 @@ ol.section-listing li.section-listing__list_item--current a {
   display: grid;
   grid-template-columns: auto auto;
   grid-column-gap: 24px;
+  text-decoration: none;
+}
+
+.about-grid .card h3 a {
+  text-decoration: none;
+}
+
+.about-grid .card h3 a:hover {
+  color: #087acc;
 }
 
 .about-grid .card.right .card_text {
@@ -1070,6 +1119,7 @@ ol.section-listing li.section-listing__list_item--current a {
 @media only screen and (min-width: 730px) {
   .img_placeholder {
     width: 200px;
+    height: 200px
   }
 
   .img_placeholder img {
@@ -1079,6 +1129,8 @@ ol.section-listing li.section-listing__list_item--current a {
 
 .block-content .about-grid .card h3 {
   line-height: 2rem;
+  margin-top: 0;
+  margin-bottom: calc((12 / 16) * 1rem);
 }
 
 @media only screen and (max-width: 1199px) {
