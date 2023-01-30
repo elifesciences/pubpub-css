@@ -717,16 +717,8 @@ h1#about-elife ~ p {
   .separated > :nth-child(16),
   .separated > :nth-child(17),
   .separated > :nth-child(18) {
-    margin-left: 25%;
+    margin-left: 48px;
   }
-}
-
-.separated > :nth-child(7) a,
-.separated > :nth-child(9) a,
-.separated > :nth-child(11) a,
-.separated > :nth-child(13) a,
-.separated > :nth-child(15) a,
-.separated > :nth-child(17) a {
 }
 
 .separated > :nth-child(7),
@@ -736,14 +728,6 @@ h1#about-elife ~ p {
 .separated > :nth-child(15),
 .separated > :nth-child(17){
   grid-column: 1;
-}
-
-.separated > :nth-child(8) a,
-.separated > :nth-child(10) a,
-.separated > :nth-child(12) a,
-.separated > :nth-child(14) a,
-.separated > :nth-child(16) a,
-.separated > :nth-child(18) a {
 }
 
 .separated > :nth-child(8),
@@ -906,7 +890,7 @@ h1#about-elife ~ p {
 
 @media only screen and (min-width: 730px) {
   .separated > :nth-child(25) a {
-    left: 288px;
+    left: 254px;
   }
 }
 
