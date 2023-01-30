@@ -621,6 +621,7 @@ h1#about-elife ~ p {
   height: 120px;
   padding: calc((24 / 16) * 1rem);
   border-bottom: 1px #e0e0e0 solid;
+  grid-column: span 4;
 }
 
 .separated > :nth-child(6) {
@@ -632,7 +633,7 @@ h1#about-elife ~ p {
   .separated > :nth-child(4),
   .separated > :nth-child(5),
   .separated > :nth-child(6) {
-    grid-column: span 4;
+    grid-column: span 1;
     margin-bottom: calc((30 / 16) * 1rem);
   }
 }
