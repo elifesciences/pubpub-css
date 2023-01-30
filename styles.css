@@ -621,8 +621,22 @@ h1#about-elife ~ p {
   height: 120px;
   padding: calc((24 / 16) * 1rem);
   border-bottom: 1px #e0e0e0 solid;
+}
+
+.separated > :nth-child(6) {
   margin-bottom: calc((30 / 16) * 1rem);
 }
+
+@media screen and (min-width: 520px) {
+  .separated > :nth-child(3),
+  .separated > :nth-child(4),
+  .separated > :nth-child(5),
+  .separated > :nth-child(6) {
+    grid-column: span 4;
+    margin-bottom: calc((30 / 16) * 1rem);
+  }
+}
+
 .separated > :nth-child(3) a,
 .separated > :nth-child(4) a,
 .separated > :nth-child(5) a,
