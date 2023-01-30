@@ -1363,3 +1363,38 @@ ol.section-listing li.section-listing__list_item--current a {
   display: none;
 }
 
+/* Mission Page 2 col layout for images */
+
+.two-col .img-card {
+  width:100%;
+}
+
+.two-col .img-card a {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+.two-col .img-card a img {
+  width: 100%;
+}
+
+.two-col .img-card a p.img-caption {
+  margin: 12px 0 24px;
+  border-bottom: 1px dotted #212121;
+  display: inline-block;
+}
+
+.two-col .img-card a:hover p.img-caption {
+  color: #087acc;
+  border-bottom: 1px dotted #087acc;
+}
+
+@media only screen and (min-width: 730px) {
+ .two-col {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 48px;
+  padding: 24px 0;
+ }
+}
