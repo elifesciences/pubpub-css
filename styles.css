@@ -423,7 +423,6 @@ header.header-component {
 .nav-bar-component ul.nav-list > :last-child a {
   display: flex;
   text-transform: uppercase;
-  margin-right: calc((66 / 16) * 1rem);
   padding: 0 calc((8 / 16) * 1rem);
   margin-left: calc((21 / 16) * 1rem);
   border-radius: 3px;
