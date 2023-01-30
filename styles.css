@@ -936,7 +936,7 @@ h1#about-elife ~ p {
 .separated > :nth-child(28) a {
   background-image: url("https://elifesciences.org/assets/patterns/img/patterns/molecules/carbon-neutral.706efe6d.svg");
   background-size: 247px auto;
-  background-position: 164px center;
+  background-position: 48px center;
   text-align: left;
   height: 50px;
 }
