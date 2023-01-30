@@ -667,22 +667,22 @@ h1#about-elife ~ p {
 
 .separated > :nth-child(3) a {
   background-image: url("https://elifesciences.org/assets/images/investors/hhmi.9d0951a2.svg");
-  background-size: 185px auto;
+  background-size: contain;
 }
 
 .separated > :nth-child(4) a {
   background-image: url("https://elifesciences.org/assets/images/investors/wellcome.813f8634.svg");
-  background-size: 72px auto;
+  background-size: contain;
 }
 
 .separated > :nth-child(5) a {
   background-image: url("https://elifesciences.org/assets/images/investors/max.89cebd37.svg");
-  background-size: 185px auto;
+  background-size: contain;
 }
 
 .separated > :nth-child(6) a {
   background-image: url("https://elifesciences.org/assets/images/investors/kaw.c1bb2e4b.svg");
-  background-size: 125px auto;
+  background-size: contain;
 }
 
 .separated > :nth-child(7),
