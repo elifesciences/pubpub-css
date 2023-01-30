@@ -687,7 +687,23 @@ h1#about-elife ~ p {
   line-height: 30px;
   text-align: left;
   font-weight: 400;
-  margin-left: 25%;
+}
+
+@media only screen and (min-width: 730px) {
+  .separated > :nth-child(7),
+  .separated > :nth-child(8),
+  .separated > :nth-child(9),
+  .separated > :nth-child(10),
+  .separated > :nth-child(11),
+  .separated > :nth-child(12),
+  .separated > :nth-child(13),
+  .separated > :nth-child(14),
+  .separated > :nth-child(15),
+  .separated > :nth-child(16),
+  .separated > :nth-child(17),
+  .separated > :nth-child(18) {
+    margin-left: 25%;
+  }
 }
 
 .separated > :nth-child(7) a,
