@@ -1405,3 +1405,7 @@ ol.section-listing li.section-listing__list_item--current a {
   padding: calc((24 / 16) * 1rem) 0;
  }
 }
+
+.bp3-button.bp3-intent-primary.bp3-outlined {
+  display: none;
+}
