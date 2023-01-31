@@ -1409,3 +1409,12 @@ ol.section-listing li.section-listing__list_item--current a {
 .bp3-button.bp3-intent-primary.bp3-outlined {
   display: none;
 }
+
+.editor figure[data-align="right"],
+.editor figure[data-align="left"] {
+  margin: .5em 0em .5em 1.5em;
+}
+
+@media only screen and (max-width: 720px) {
+  margin: 0;
+}
