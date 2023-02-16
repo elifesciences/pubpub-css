@@ -3,7 +3,7 @@
 <style>
 
 #main-content {
-  display: block; 
+  display: block;
   margin: 0 24px;
 }
 
@@ -31,7 +31,7 @@ img {
   .layout-component {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 1114px;
+    max-width: 920px;
   }
 
     img {
@@ -39,25 +39,54 @@ img {
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .highlight-block {
+    margin: 0 -24px;
+  }
+}
+
 .highlight-block {
   background: url(https://assets.pubpub.org/h51vk9z6/01676560770466.svg) no-repeat 18px 18px #F5F7FA;
   background-size: 24px;
+  line-height: 24px;
   padding: 18px 24px 18px 54px;
 }
 
-.layout-component > :nth-child(1) 
-  {
-    grid-column: 1/3;
-    max-width: 700px;
-    margin: 0 auto 96px;
-  }
+.layout-component > :nth-child(1) {
+  grid-column: 1/3;
+  max-width: 700px;
+  margin: 0 auto 24px;
+}
+
+@media only screen and (min-width: 730px) {
+  .layout-component > :nth-child(1) {
+      margin-bottom: 48px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+  .layout-component > :nth-child(1) {
+      margin-bottom: 72px;
+    }
+}
 
 .layout-component > :nth-child(4) {
   grid-column: 1/3;
   margin-top: 84px;
 }
 
-.button {
+@media only screen and (max-width: 480px) {
+  .button {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.button-action {
   margin-bottom: 48px;
+}
+
+.editor figure[data-size="50"] {
+  width: 100%;
 }
 </style>
