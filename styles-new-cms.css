@@ -668,3 +668,7 @@ ol.section-listing li.section-listing__list_item--current a {
     margin: 0;
   }
 }
+
+.email-cta__container .email-cta__button {
+  margin: calc((24 / 16) * 1rem) 0 0;
+}
