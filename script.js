@@ -8,7 +8,7 @@ overlayDiv.setAttribute("class", "elife-nav-overlay");
 
 // clone logo and add to div
 const elifeLogo = document
-  .querySelector(".nav-list > :first-child a")
+  .querySelector(".logo a")
   .cloneNode(true);
 
 elifeLogo.setAttribute("class", "elife-nav-logo");
@@ -28,16 +28,16 @@ navItems.setAttribute("class", "elife-nav-items");
 
 // select & move extra nav items to menu
 const researchCategories = document.querySelector(
-  ".nav-bar-component ul.nav-list > :nth-child(7)"
+  "nav ul > :nth-child(7)"
 );
 const insideElife = document.querySelector(
-  ".nav-bar-component ul.nav-list > :nth-child(8)"
+  "nav ul > :nth-child(8)"
 );
 const authorGuide = document.querySelector(
-  ".nav-bar-component ul.nav-list > :nth-child(9)"
+  "nav ul > :nth-child(9)"
 );
 const reviewerGuide = document.querySelector(
-  ".nav-bar-component ul.nav-list > :nth-child(10)"
+  "nav ul > :nth-child(10)"
 );
 
 navItems.appendChild(researchCategories);
@@ -105,7 +105,7 @@ function sizeMenuToPage() {
 
 // toggle event listeners
 document
-  .querySelector(".nav-bar-component ul.nav-list > :nth-child(2) a")
+  .querySelector("nav ul > :nth-child(2) a")
   .addEventListener("click", toggleMenu);
 overlayDiv.addEventListener("click", toggleMenu);
 closeButton.addEventListener("click", toggleMenu);
