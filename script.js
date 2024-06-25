@@ -104,9 +104,9 @@ function sizeMenuToPage() {
 }
 
 // toggle event listeners
-document
+/* document
   .querySelector("nav ul > :nth-child(2) a")
-  .addEventListener("click", toggleMenu);
+  .addEventListener("click", toggleMenu);*/
 overlayDiv.addEventListener("click", toggleMenu);
 closeButton.addEventListener("click", toggleMenu);
 
