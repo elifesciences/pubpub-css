@@ -121,3 +121,7 @@ script.setAttribute('src', 'https://consent.cookiebot.com/uc.js');
 script.setAttribute('data-cbid', '0a5c50d8-fcf9-47b1-8f4f-1eaadb13941b');
 script.setAttribute('data-blockingmode', 'auto');
 head.appendChild(script);
+
+function CookiebotCallback_OnAccept() {
+  document.cookie = "gdpr-consent=accept";
+}
