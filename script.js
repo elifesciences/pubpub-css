@@ -122,6 +122,16 @@ script.setAttribute('data-cbid', '0a5c50d8-fcf9-47b1-8f4f-1eaadb13941b');
 script.setAttribute('data-blockingmode', 'auto');
 head.appendChild(script);
 
+if(document.getElementById("cookeDeclaration")){
+  let cookieDeclaration = document.getElementById('cookeDeclaration');
+  const scriptTwo = document.createElement('script');
+  scriptTwo.setAttribute('id', 'CookieDeclaration');
+  scriptTwo.setAttribute('type', 'text/javascript');
+  scriptTwo.setAttribute('src', 'https://consent.cookiebot.com/0a5c50d8-fcf9-47b1-8f4f-1eaadb13941b/cd.js');
+  scriptTwo.setAttribute('async', 'async');
+  cookieDeclaration.appendChild(scriptTwo);
+}
+
 function CookiebotCallback_OnAccept() {
   document.cookie = "gdpr-consent=accept";
 }
